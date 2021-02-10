@@ -1,0 +1,48 @@
+<div class="shopping-list">
+	<table>
+		<thead>
+			<tr>
+				<th></th>
+				<th class="list-col item">Produktnavn</th>
+				<th class="list-col qty">Antal</th>
+				<th class="list-col staock-status">På lager / ETA</th>
+				<th class="list-col price">Pris</th>
+				<th class="list-col subtotal">Total</th>
+			</tr>
+		</thead>
+		<tbody>
+			<?php
+				$items = $block->getItems();
+			 foreach ($items as $key => $item) {
+			 	$product = $item->getProduct();
+			  ?>
+			<tr>
+				<td class="list-col image"><?php print_r($block->getImageThumbnail($product)->toHtml()); ?></td>
+				<td class="list-col item"><span class="item-name"><?= $item->getName();?></span><span class="item-oem">Varenr.: KF10848<?= $product->getOem(); ?></span></td>
+				<td class="list-col qty"><?= $item->getQty();?></td>
+				<td class="list-col staock-status"><i class="fa fa-circle mr-1 <?= $block->getStockStatus($product) ? 'stock-in' : 'out-stock'?>"></i><?= $block->getStockStatus($product) ? "På lager" : "Varen er snart PÅ lager igen, bestil blot"; ?></td>
+				<td class="list-col price"><?= number_format($item->getPrice(), 2, '.', '');?></td>
+				<td class="list-col subtotal"><?=number_format($item->getRowTotal(), 2, '.', '');?></td>
+			</tr>
+		<?php } ?>
+		</tbody>	
+	</table>
+
+
+	<table class="cart-items-total">
+		<tr>
+			<td>Beløb DKK (ekskl. moms):</td>
+			<td><?=number_format($block->getSubTotal(), 2, '.', '');?></td>
+		</tr>
+		<tr>
+			<td>Fragt:</td>
+			<td><?=number_format($block->getTaxAmount(), 2, '.', '');?></td>
+		</tr>
+		<tr>
+			<td>Moms (25,00%):</td>
+			<td><?=number_format($block->getTaxAmount(), 2, '.', '');?></td>
+		</tr>
+	</table>
+		
+	
+</div>

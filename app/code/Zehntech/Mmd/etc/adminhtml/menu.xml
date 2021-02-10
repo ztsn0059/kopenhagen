@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Copyright © 2019 Magento. All rights reserved.
+* See COPYING.txt for license details.
+* Author @SumitKumarNamdeo
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+
+
+        <add id="Zehntech_Mmd::mmd" title="MMD file" module="Zehntech_Mmd"
+             sortOrder="30"
+             parent="Zehntech_Remmer::manager" action="mmdfile/mmd"
+             resource="Zehntech_Mmd::add_row"/>
+
+    </menu>
+</config>

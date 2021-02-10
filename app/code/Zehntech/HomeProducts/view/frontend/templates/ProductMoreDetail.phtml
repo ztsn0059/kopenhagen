@@ -1,0 +1,30 @@
+<?php $_product = $block->getProduct();?>
+
+<div class="product-more-details">
+	<span class="oem">Varenr.: <?php echo $_product->getOem();
+	if($_product->getMinsales()>1)
+	{
+		echo "*".$_product->getMinsales();
+	}
+	 ?></span>
+	<span class="ean">EAN: <?php echo $_product->getBarcode(); ?></span>	
+
+	<div class="ext-details part-1">
+		<span>Katalognr .:<?php echo $_product->getSku();?></span>
+		<?php if($_product->getKatalogpage()): ?>
+			<span> Sidenr.: <?php echo(int) filter_var($_product->getKatalogpage(), FILTER_SANITIZE_NUMBER_INT); ?></span>
+		<?php endif;?>
+	</div>
+	<div class="ext-details part-2">
+		<?php if($_product->getMinsales()): ?>
+			<span> Min. Salg:. <?php echo $_product->getMinsales()." ".$_product->getStockunit();?></span>
+		<?php endif;?>
+		<?php if($_product->getPacking()):?>
+			<span> Pakke af: <?php echo $_product->getPacking()." ".$_product->getStockunit();?></span>
+		<?php endif;?>
+		<?php if($_product->getOuterpack()):?>
+			<span>Ydre pakning: <?php echo $_product->getOuterpack()." ".$_product->getStockunit();?></span>
+		<?php endif;?>
+	</div>
+
+</div>

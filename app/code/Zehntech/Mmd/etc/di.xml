@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+   
+    <preference for="Zehntech\Mmd\Api\Data\MmdFileInterface" type="Zehntech\Mmd\Model\MmdFile"/>   
+
+    <virtualType name="Zehntech\Mmd\Model\ResourceModel\MmdFile\Collection"
+                 type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">mmd_product_list</argument>
+            <argument name="resourceModel" xsi:type="string">Zehntech\Mmd\Model\ResourceModel\MmdFile
+            </argument>
+        </arguments>
+    </virtualType>
+
+
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="mmd_record_mmd_list_data_source" xsi:type="string">
+                    Zehntech\Mmd\Model\ResourceModel\MmdFile\Collection
+                </item>
+            </argument>
+        </arguments>
+    </type>
+
+</config>

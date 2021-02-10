@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<StockTable>
+  <ClientID>702607600</ClientID>
+   <Item>
+    <DistPartNumber>1006010</DistPartNumber>
+    <ManufactPartNumber>191008</ManufactPartNumber>
+    <Brand>Brennen</Brand>
+    <ProductName>Stikdåse Brennenstuhl 6 udtag m/jord m/kontakt 3m hvid</ProductName>
+    <ItemName3></ItemName3>
+    <Price>89.91</Price>
+    <RecPrice1>143.96</RecPrice1>
+    <RecPrice2>143.96</RecPrice2>
+    <Stock>1</Stock>
+    <barcode>4007123023752</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>01</HeadCategory>
+    <HeadCategoryText>It-tilbehør &amp; maskiner</HeadCategoryText>
+    <Category>0103</Category>
+    <CategoryText>El-artikler</CategoryText>
+    <HeadCategory2>0103</HeadCategory2>
+    <HeadCategoryText2>El-artikler</HeadCategoryText2>
+    <Category2>010302</Category2>
+    <CategoryText2>Kabler</CategoryText2>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>4</OuterPack>
+    <KatalogPage>Side 041</KatalogPage>
+    <OEM>191008</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/1006010.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>1</Packing>
+    <Synonym>1001740</Synonym>
+    <EnviroCode></EnviroCode>
+    <ExtText>
+      Stikdåse med 2-polet kontakt og jord, der gør det muligt at tilslutte 6 enheder sikkert
+      til en elektrisk udgang.
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>1006020</DistPartNumber>
+    <ManufactPartNumber>217241</ManufactPartNumber>
+    <Brand>NQ Power</Brand>
+    <ProductName>Kabeltromle NQ Power 4 udtag 10m rød</ProductName>
+    <ItemName3></ItemName3>
+    <Price>97.56</Price>
+    <RecPrice1>143.20</RecPrice1>
+    <RecPrice2>143.20</RecPrice2>
+    <Stock>3</Stock>
+    <barcode>5706470109933</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>01</HeadCategory>
+    <HeadCategoryText>It-tilbehør &amp; maskiner</HeadCategoryText>
+    <Category>0103</Category>
+    <CategoryText>El-artikler</CategoryText>
+    <HeadCategory2>0103</HeadCategory2>
+    <HeadCategoryText2>El-artikler</HeadCategoryText2>
+    <Category2>010302</Category2>
+    <CategoryText2>Kabler</CategoryText2>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>1</OuterPack>
+    <KatalogPage>Side 041</KatalogPage>
+    <OEM>217241</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/1006020.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>1</Packing>
+    <Synonym></Synonym>
+    <EnviroCode></EnviroCode>
+    <ExtText>
+      Denne kabeltromle har fire danske stikkontakter, der er udstyret med
+      overspændingsbeskyttelse og 10 m ledning.
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>1006030</DistPartNumber>
+    <ManufactPartNumber>217242</ManufactPartNumber>
+    <Brand>NQ Power</Brand>
+    <ProductName>Kabeltromle NQ Power 4 udtag 25m på stativ sort</ProductName>
+    <ItemName3></ItemName3>
+    <Price>166.35</Price>
+    <RecPrice1>239.20</RecPrice1>
+    <RecPrice2>239.20</RecPrice2>
+    <Stock>0</Stock>
+    <barcode>5706470109940</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>01</HeadCategory>
+    <HeadCategoryText>It-tilbehør &amp; maskiner</HeadCategoryText>
+    <Category>0103</Category>
+    <CategoryText>El-artikler</CategoryText>
+    <HeadCategory2>0103</HeadCategory2>
+    <HeadCategoryText2>El-artikler</HeadCategoryText2>
+    <Category2>010302</Category2>
+    <CategoryText2>Kabler</CategoryText2>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>1</OuterPack>
+    <KatalogPage>Side 041</KatalogPage>
+    <OEM>217242</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/1006030.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>1</Packing>
+    <Synonym></Synonym>
+    <EnviroCode></EnviroCode>
+    <ExpectedDelivery>06/28/2019</ExpectedDelivery>
+    <ExtText>
+      Denne kabeltromle har fire danske stikkontakter, der er udstyret med
+      overspændingsbeskyttelse. Den er på stativ og har 25 m ledning.
+    </ExtText>
+  </Item>
+   <Item>
+    <DistPartNumber>10000200</DistPartNumber>
+    <ManufactPartNumber>S0720500</ManufactPartNumber>
+    <Brand>Dymo</Brand>
+    <ProductName>Dymo teksttape D1 45010 12mm Sort/Klar</ProductName>
+    <ItemName3>45010</ItemName3>
+    <Price>70.12</Price>
+    <RecPrice1>210.60</RecPrice1>
+    <RecPrice2>210.60</RecPrice2>
+    <Stock>38</Stock>
+    <barcode>5411313450102</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161402</Category3>
+    <CategoryText3>Teksttape</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>5</OuterPack>
+    <KatalogPage>Side 254</KatalogPage>
+    <OEM>S0720500</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10000200.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>5</Packing>
+    <Synonym>10.000.200 45010 D1 tape Brand:Dymo Format:12 mm Tekstfarve/tapefarve:Sort/klar Type:D1 10.000.200 Prægetape 45010 Teksttape dymotape dymo tape tape   S0720500</Synonym>
+    <EnviroCode>&quot;Dymo&quot;</EnviroCode>
+    <ExtText>
+      Teksttape Dymo 45010 12mm sort/klar, længde 7 m
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>10000210</DistPartNumber>
+    <ManufactPartNumber>S0720580</ManufactPartNumber>
+    <Brand>Dymo</Brand>
+    <ProductName>Dymo teksttape D1 45018 12mm Sort/Gul</ProductName>
+    <ItemName3>45018</ItemName3>
+    <Price>70.12</Price>
+    <RecPrice1>210.60</RecPrice1>
+    <RecPrice2>210.60</RecPrice2>
+    <Stock>13</Stock>
+    <barcode>5411313450188</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161402</Category3>
+    <CategoryText3>Teksttape</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>5</OuterPack>
+    <KatalogPage>Side 254</KatalogPage>
+    <OEM>S0720580</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10000210.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>5</Packing>
+    <Synonym>10.000.210 45018 D1 tape Brand:Dymo Format:12 mm Tekstfarve/tapefarve:Sort/gul Type:D1 10.000.210 Prægetape 45018 Teksttape dymotape dymo tape tape   S0720580</Synonym>
+    <EnviroCode>&quot;Dymo&quot;</EnviroCode>
+    <ExtText>
+      Teksttape Dymo 45018 12mm sort/gul, længde 7 m
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>10000560</DistPartNumber>
+    <ManufactPartNumber>S0721660</ManufactPartNumber>
+    <Brand>Dymo</Brand>
+    <ProductName>Dymo teksttape 91221 Letratag  12mmx4m Hvid</ProductName>
+    <ItemName3></ItemName3>
+    <Price>33.57</Price>
+    <RecPrice1>100.89</RecPrice1>
+    <RecPrice2>100.89</RecPrice2>
+    <Stock>60</Stock>
+    <barcode>5411313912211</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161402</Category3>
+    <CategoryText3>Teksttape</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>10</OuterPack>
+    <KatalogPage>Side 254</KatalogPage>
+    <OEM>S0721660</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10000560.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>1</Packing>
+    <Synonym>10.000.560 91221 D1 tape Hartmann Brand:Dymo Farve:Hvid Format:12 mm Type:Letratag 10.000.560 Prægetape 9110 Teksttape dymotape dymo tape tape   S0721660</Synonym>
+    <EnviroCode>&quot;Dymo&quot;</EnviroCode>
+    <ExtText>
+      Hvid plast. Til Dymo Letratag. Længde 4 meter. 
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>10000650</DistPartNumber>
+    <ManufactPartNumber>BROTZ111</ManufactPartNumber>
+    <Brand>Brother</Brand>
+    <ProductName>Brother teksttape TZe-111  6mm Sort/Klar</ProductName>
+    <ItemName3></ItemName3>
+    <Price>45.85</Price>
+    <RecPrice1>134.39</RecPrice1>
+    <RecPrice2>134.39</RecPrice2>
+    <Stock>16</Stock>
+    <barcode>4977766684750</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161402</Category3>
+    <CategoryText3>Teksttape</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>25</OuterPack>
+    <KatalogPage>Side 249</KatalogPage>
+    <OEM>TZE111</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10000650.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>5</Packing>
+    <Synonym>10.000.650 TZE111 TZ tape TZe tape Brand:Brother Format:6 mm Tekstfarve/tapefarve:Sort/klar 10.000.650 Prægetape TC Tape TZ111 Teksttape dymotape dymo tape tape brother tape</Synonym>
+    <EnviroCode>&quot;Brother&quot;</EnviroCode>
+    <ExtText>
+      Teksttape Brother TZ111 6mm sort/klar, længde 8 m
+    </ExtText>
+  </Item>
+  </StockTable>

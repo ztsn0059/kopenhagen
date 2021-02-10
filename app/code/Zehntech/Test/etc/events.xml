@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+<!--     <event name="sales_order_shipment_save_after">
+        <observer name="sales_order_xml_generate" instance="Zehntech\Test\Observer\GenerateOrderXml"/>
+    </event> -->
+<!--     <event name="catalog_product_save_after">
+        <observer name="cross_inventory_other_product" instance="Zehntech\Test\Observer\StockUpdate"/>
+    </event> -->
+<!--     <event name="customer_register_success">
+        <observer name="save_customer_group_custom" instance="Zehntech\Test\Observer\SaveCustomerGroupId" />
+    </event> -->
+</config>

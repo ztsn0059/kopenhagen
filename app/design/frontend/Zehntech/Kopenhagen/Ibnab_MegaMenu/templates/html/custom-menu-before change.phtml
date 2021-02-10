@@ -1,0 +1,129 @@
+<?php $columnsLimit = $block->getColumnsLimit() ?: 0; ?>
+<?php $_menu2 = $block->getHtml('level-top', 'mega', $columnsLimit) ?>
+<?php $_menu = $block->getHtml('level-top', 'submenu', $columnsLimit) ?>
+<?php $_menu3 = $block->getCustomNav(241,true) ?>
+<?php $_menu4 = $block->getCustomNav(243,true) ?>
+<?php $_customNav = $block->getSelectedcatNav() ?>
+<?php if ($block->allowExtension()): ?>
+    <script>
+
+        require([
+            'jquery',
+            'ibnabmodernizr'
+        ], function ($) {
+
+
+            $('.menu > ul > li:has( > ul)').addClass('menu-dropdown-icon');
+
+            $('#header').append('<div class="popup-model"></div>');
+            var toggle = "<a href=\"#\" class=\"menu-mobile\"><span class=\"fa fa-bars\"></span></a>"
+            $(".menu > ul").before(toggle);
+             $('a.level-top').click(function (e){
+                    e.preventDefault();
+                  })
+            $("li.menu-dropdown-icon").click(function (e) {
+                e.preventDefault(); //testing
+                $("#om > ul > li").children('a').removeClass('active-top');
+                $(this).find('a').first().addClass('active-top');
+                // if($(window).width() > 943) {
+                if($(window).width() > 959) {
+                    $('.popup-model').show();
+                    $(this).find("ul").first().show(function(){
+                        $(this).find('a').first().addClass('active-top');
+                        var menu = this;
+                        $('.navigation li.level1').hover(function(){
+                            $(menu).find('a').first().toggleClass('active-top');                                    
+                        })
+                        $(this).find(".level1.submenu.div-container").first().show();
+                    },0);
+                    $(this).siblings("li.menu-dropdown-icon").children('ul').hide();
+                }
+                else{
+                    //mobile or pad view
+                    $(this).children('ul').first().toggle();
+                }
+            });
+            $('li.level1').click(function(){
+                ($(window).width()<960){
+                    $(this).children('.div-container').first().toggle();
+                }
+            })
+            $(".level1.submenu.div-container").hover(function(){
+                $(this).siblings().toggleClass('active-top');
+            })
+
+            $('.popup-model').click(function(){
+                var parent = $("li.menu-dropdown-icon"); 
+                parent.children('ul').hide();
+                parent.find('a').removeClass('active-top');
+                // $(this).hide();
+                $(this).toggle();
+                if($(window).width()<960)
+                {
+                    $(".menu > ul").toggleClass('show-on-mobile');
+                    $('.menu-close').toggleClass('cross-active',300);
+                }
+            }) 
+
+            $(".menu-mobile").click(function (e) {
+                $(".menu > ul").toggleClass('show-on-mobile');
+                $('.menu-close').toggleClass('cross-active',300);
+                // $('#header > .popup-model').toggleClass('popup-active');
+                $('#header > .popup-model').toggle();
+                e.preventDefault();
+            });
+            $('.menu-close').click(function(){
+                $(".menu > ul").toggleClass('show-on-mobile');
+                $(this).toggleClass('cross-active',300);
+                // $('#header > .popup-model').toggleClass('popup-active');
+                $('#header > .popup-model').toggle();
+            })
+            // mobile or pad screens only
+        
+            // $('.menu-mobile').click(function(){
+            //     $('.menu-close').show();
+            // })
+            // $('.menu-close').click(function(){
+            //     $('.show-on-mobile').hide();
+            //     $(this).hide();
+            // })
+            // mobile or pad screens only
+            $('')
+
+        });
+
+    </script>
+    <?php
+    /**
+     * Top menu for store
+     *
+     * @see \Magento\Theme\Block\Html\Topmenu
+     */
+    ?>
+    <nav class="navigation" role="navigation">
+
+        <div class="menu" id="om">
+            <ul>
+                <?php /* @escapeNotVerified */
+                echo $_menu2;
+                // echo $_menu3; 
+                // echo $_menu4;
+                echo $_customNav;
+            ?>
+            </ul>
+            <span class="menu-close fa fa-times"></span>
+        </div>
+        <ul id="dm"
+            data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+            <?php /* @escapeNotVerified */
+            echo $_menu; ?>
+        </ul>
+    </nav>
+
+<?php else : ?>
+
+    <nav class="navigation" role="navigation">
+        <?php /* @escapeNotVerified */
+        echo $_menu; ?>
+    </nav>
+<?php endif; ?>

@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright Â© Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="2columns-right" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <!-- <update handle="review_product_form_component"/> -->
+    <body>
+        <referenceBlock name="reviews.tab" remove="true"/>
+        <referenceBlock name="product.info.review" remove="true"/>
+        <!-- <referenceBlock name="view.addto.wishlist" remove="true"/> -->
+        <referenceBlock name="product.info.mailto" remove="true"/>
+        <referenceBlock name="product.brand" remove="true"/>
+        <!-- <referenceBlock name="product.info.overview" remove="true"/> -->
+
+        <referenceBlock name="product.info.sku" remove="true"/>
+        <referenceContainer name="content">
+            <container name="outside.details.block" htmlTag="div" htmlClass="outside-detail-block" before="-"/>
+        </referenceContainer>
+        <move element="product.info.main" destination="outside.details.block"/>
+        <move element="page.main.title" destination="outside.details.block" before="-"/>
+        <move element="product.more.details" destination="outside.details.block" after="page.main.title"/>
+        <referenceBlock name="brand.sidebar" remove="true"/>
+        <move element="catalog.product.related" destination="sidebar.additional" before="-"/>
+        <referenceBlock name="wishlist_sidebar" remove="true"/>
+
+        <referenceBlock name="product.info.details">
+            <block class="Magento\Catalog\Block\Product\ProductList\Related" name="catlog.product.realted.tab"
+                   template="Magento_Catalog::product/list/items-tab.phtml" group="detailed_info" after="-">
+                <arguments>
+                    <argument translate="true" name="title" xsi:type="string">Lignende produkter</argument>
+                    <argument name="type" xsi:type="string">related</argument>
+                    <argument name="sort_order" xsi:type="string">20</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+
+        <referenceBlock name="sale.reorder.sidebar" remove="true"/>
+
+        <referenceBlock name="product.info.main">
+            <block class="Magento\Catalog\Block\Product\View" name="price.include.exclude"
+                   template="Magento_Catalog::product/view/price.phtml" before="-">
+            </block>
+        </referenceBlock>
+        <move element="product.info.type" destination="product.info.main" after="price.include.exclude"/>
+
+        <referenceBlock name="product.price.final" remove="true"/>
+        <referenceBlock name="product.price.tier" remove="true"/>
+        <referenceBlock name="product.info.price" remove="true"/>
+
+        <move element="product.info.overview" destination="outside.details.block" before="product.info.main"/>
+        <referenceBlock name="product.info.overview" remove="true"/>
+    </body>
+</page>
+<!-- name="product.info.media.image" -->
+<!-- name="product.info.media" -->

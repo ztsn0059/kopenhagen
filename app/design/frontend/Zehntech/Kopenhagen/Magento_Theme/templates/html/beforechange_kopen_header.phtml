@@ -1,0 +1,78 @@
+<!-- Start of zehntech Zendesk Widget script -->
+<script id="ze-snippet"
+        src="https://static.zdassets.com/ekr/snippet.js?key=20edd455-3e36-43d6-a77d-6a6dd9598807"></script>
+<!-- End of zehntech Zendesk Widget script -->
+<div class="container mt-3 mb-2">
+    <div class="row w-100 ml-0">
+        <div class="col-1 logo-section">
+            <?php echo $this->getLayout()->createBlock("Magento\Theme\Block\Html\Header\Logo")->setTemplate("Magento_Theme::html/header/logo.phtml")->toHtml(); ?>
+        </div>
+
+        <div class="col-11 top-list pl-5">
+            <div class="row">
+                <div class="col-10">
+                    <?php
+                    echo $this->getLayout()
+                        ->createBlock('Magento\Cms\Block\Block')
+                        ->setBlockId('check-list')
+                        ->toHtml();
+                    ?>
+                </div>
+
+                <div class="col-2 social-links d-flex justify-content-end">
+<!--                    <a href="//www.instagram.com/onlinesupplies_kontorartikler/" target="_blank">-->
+<!--                        <span style="font-size: 1em; color: #517fa4; margin:4px;">-->
+<!--                          <i class="fab fa-instagram fa-3x"></i>-->
+<!--                        </span>-->
+<!--                    </a>-->
+
+                    <a href="//www.facebook.com/Online-Supplies-116548868793115/" target="_blank">
+                        <span style="font-size: 1em; color: #425596; margin:4px;">
+                          <i class="fab fa-facebook-square fa-3x"></i>
+                        </span>
+                    </a>
+
+                    <a href="//www.linkedin.com/company/online-supplies?trk=biz-companies-cym" target="_blank">
+                        <span style="font-size: 1em; color: #2272b3; margin:4px;">
+                            <i class="fab fa-linkedin fa-3x"></i>
+                        </span>
+                    </a>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="search-bar col-9">
+                    <?= //echo $this->getLayout()->createBlock("Magento\Framework\View\Element\Template")->setTemplate("Magento_Search::form.mini.phtml")->toHtml();
+                     $block->getChildHtml('topSearch');
+                     ?>
+                </div>
+            </div>
+
+            <div class="row pt-0 mt-0">
+                <div class="col-4">
+                    <a class="home-link" href="<?php echo $block->getBaseUrl(); ?>">Forsiden</a>
+                    <?php if (!$block->isLoggedIn()) : ?>
+                        <a class="reorder-link" href="/kopen/sales/order/history">Genbestil</a>
+                        <a class="wish-link" href="/kopen/wishlist">Favoritter</a>
+                    <?php endif;?>
+                </div>
+                <div class="col-5">
+                    <img class="card-image"
+                         src="https://asset1-327a.kxcdn.com/w461373/Content/ONLINESUPPLIES/Img/logo-cc.vc38c097d.png"/>
+                </div>
+                <div class="col-3 user-links d-flex justify-content-end">
+                    <?php if ($block->isLoggedIn()) { ?>
+                        <a href="/kopen/customer/account/login" class="mr-4"><i
+                                    class="fas fa-lock-open"></i><span>Log ind</span></a>
+                        <a href="/kopen/customer/account/create"><i class="fa fa-user"></i><span>Ny bruger?</span></a>
+                    <?php } else {
+                        ?>
+                        <a href="/kopen/customer/account" class="mr-4"><i class="fa fa-user"></i><span>Min Konto</span></a>
+                        <a href="/kopen/customer/account/logout"><i class="fas fa-sign-out-alt"></i><span>Log ud</span></a>
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

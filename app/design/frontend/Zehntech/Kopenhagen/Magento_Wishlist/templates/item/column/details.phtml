@@ -1,0 +1,22 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+/** @var \Magento\Wishlist\Block\Customer\Wishlist\Item\Column\Info $block */
+
+/** @var \Magento\Wishlist\Model\Item $item */
+$item = $block->getItem();
+$product = $item->getProduct();
+?>
+<div class="product-attr">
+<span class="oem list-att">
+    <strong>Varenr.: </strong><?= $product->getOem()?>
+</span>
+<span class="sku list-att">
+	<strong>Katalognr.: </strong><?= $product->getSku()?>
+</span>
+</div>

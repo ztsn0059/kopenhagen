@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Zehntech\Remmer\Api\Data\RemmerFileInterface" type="Zehntech\Remmer\Model\RemmerFile"/>
+     <virtualType name="Zehntech\Remmer\Model\ResourceModel\RemmerFile\Collection"
+                 type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">remmer_product_list</argument>
+            <argument name="resourceModel" xsi:type="string">Zehntech\Remmer\Model\ResourceModel\RemmerFile
+            </argument>
+        </arguments>
+    </virtualType>
+
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="grid_record_grid_list1_data_source" xsi:type="string">
+                    Zehntech\Remmer\Model\ResourceModel\RemmerFile\Collection
+                </item>
+            </argument>
+        </arguments>
+    </type>
+
+</config>

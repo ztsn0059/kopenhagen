@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<StockTable>
+  <ClientID>702607600</ClientID>
+  <Item>
+    <DistPartNumber>4000010</DistPartNumber>
+    <ManufactPartNumber>163111</ManufactPartNumber>
+    <Brand>Pilot</Brand>
+    <ProductName>Gelpen Pilot G2 0.5 Rød Extra fine</ProductName>
+    <ItemName3>353069</ItemName3>
+    <Price>7.95</Price>
+    <RecPrice1>25.24</RecPrice1>
+    <RecPrice2>25.24</RecPrice2>
+    <Stock>76</Stock>
+    <barcode>4902505163111</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0213</Category>
+    <CategoryText>Skriveredskaber</CategoryText>
+    <HeadCategory2>0213</HeadCategory2>
+    <HeadCategoryText2>Skriveredskaber</HeadCategoryText2>
+    <Category2>021301</Category2>
+    <CategoryText2>Skrivepenne</CategoryText2>
+    <HeadCategory3>021301</HeadCategory3>
+    <HeadCategoryText3>Skrivepenne</HeadCategoryText3>
+    <Category3>02130104</Category3>
+    <CategoryText3>Gelpenne</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>144</OuterPack>
+    <KatalogPage>Side 111</KatalogPage>
+    <OEM>163111</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/4000010.jpg</ImageURL>
+    <New>No</New>
+    <Popular>Yes</Popular>
+    <Packing>12</Packing>
+    <Synonym>4.000.010 163111 Kuglepenne Rollerpenne Brand:Pilot Farve:Rød Skriftfarve:Rød Stregbredde:0,5 4000290 4.000.010 29103 Gelpenne gel rollere gelrollere rollere penne skriveredskaber</Synonym>
+    <EnviroCode>&quot;pilot&quot;</EnviroCode>
+    <ExpectedDelivery>05/10/2019</ExpectedDelivery>
+    <ExtText>
+      Med klikmekanisme og gelblæk. Udviklet efter de højeste specifikationer for at give den bedst mulige skriveevne. Med top, clip og komfortabelt 
+      gummigreb i skrivefarven.
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>4000020</DistPartNumber>
+    <ManufactPartNumber>163128</ManufactPartNumber>
+    <Brand>Pilot</Brand>
+    <ProductName>Gelpen Pilot G2 0.5 Blå Extra fine</ProductName>
+    <ItemName3>353070</ItemName3>
+    <Price>7.95</Price>
+    <RecPrice1>25.24</RecPrice1>
+    <RecPrice2>25.24</RecPrice2>
+    <Stock>667</Stock>
+    <barcode>4902505163128</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0213</Category>
+    <CategoryText>Skriveredskaber</CategoryText>
+    <HeadCategory2>0213</HeadCategory2>
+    <HeadCategoryText2>Skriveredskaber</HeadCategoryText2>
+    <Category2>021301</Category2>
+    <CategoryText2>Skrivepenne</CategoryText2>
+    <HeadCategory3>021301</HeadCategory3>
+    <HeadCategoryText3>Skrivepenne</HeadCategoryText3>
+    <Category3>02130104</Category3>
+    <CategoryText3>Gelpenne</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>144</OuterPack>
+    <KatalogPage>Side 111</KatalogPage>
+    <OEM>163128</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/4000020.jpg</ImageURL>
+    <New>No</New>
+    <Popular>Yes</Popular>
+    <Packing>12</Packing>
+    <Synonym>4.000.020 163128 Kuglepenne Rollerpenne Brand:Pilot Farve:Blå Skriftfarve:Blå Stregbredde:0,5 4000280 4.000.020 29105 Gelpenne gel rollere gelrollere rollere penne skriveredskaber</Synonym>
+    <EnviroCode>&quot;pilot&quot;</EnviroCode>
+    <ExpectedDelivery>05/10/2019</ExpectedDelivery>
+    <ExtText>
+      Med klikmekanisme og gelblæk. Udviklet efter de højeste specifikationer for at give den bedst mulige skriveevne. Med top, clip og komfortabelt 
+      gummigreb i skrivefarven.
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>4000030</DistPartNumber>
+    <ManufactPartNumber>166532</ManufactPartNumber>
+    <Brand>Pilot</Brand>
+    <ProductName>Gelpen Pilot G2 0.5 Grøn Extra fine</ProductName>
+    <ItemName3>Kuglepen Pilot</ItemName3>
+    <Price>7.95</Price>
+    <RecPrice1>25.24</RecPrice1>
+    <RecPrice2>25.24</RecPrice2>
+    <Stock>89</Stock>
+    <barcode>4902505166532</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0213</Category>
+    <CategoryText>Skriveredskaber</CategoryText>
+    <HeadCategory2>0213</HeadCategory2>
+    <HeadCategoryText2>Skriveredskaber</HeadCategoryText2>
+    <Category2>021301</Category2>
+    <CategoryText2>Skrivepenne</CategoryText2>
+    <HeadCategory3>021301</HeadCategory3>
+    <HeadCategoryText3>Skrivepenne</HeadCategoryText3>
+    <Category3>02130104</Category3>
+    <CategoryText3>Gelpenne</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>144</OuterPack>
+    <KatalogPage>Side 111</KatalogPage>
+    <OEM>166532</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/4000030.jpg</ImageURL>
+    <New>No</New>
+    <Popular>Yes</Popular>
+    <Packing>12</Packing>
+    <Synonym>4.000.030 166532 Kuglepenne Rollerpenne Brand:Pilot Farve:Grøn Skriftfarve:Grøn Stregbredde:0,5 4.000.030 29106 Gelpenne gel rollere gelrollere rollere penne skriveredskaber</Synonym>
+    <EnviroCode>&quot;pilot&quot;</EnviroCode>
+    <ExpectedDelivery>05/10/2019</ExpectedDelivery>
+    <ExtText>
+      Med klikmekanisme og gelblæk. Udviklet efter de højeste specifikationer for at give den bedst mulige skriveevne. Med top, clip og komfortabelt 
+      gummigreb i skrivefarven.
+    </ExtText>
+  </Item>
+</StockTable>

@@ -1,0 +1,56 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+?>
+<?php
+/**
+ * @var \Magento\Sales\Block\Adminhtml\Order\View\Items $block
+ */
+$_order = $block->getOrder() ?>
+<?php $_items = $block->getItemsCollection();?>
+<?php $j =0; foreach ($_items as $_item):
+    if(!$_item->getSource()) :
+        $j++;
+        break;
+    endif;
+    endforeach; ?>
+<div class="admin__table-wrapper">
+    <form data-mage-init='{"validation":{}}' id="send-orderData" action="/kopen/admin/orderdata/supplier/send" method="post">
+        <input type="hidden" name="form_key" value="<?= $block->getFormKey() ?>">
+        <input type="hidden" name="order_id" value="<?= $_order->getId() ?>">
+    <table class="data-table admin__table-primary edit-order-table">
+        <thead>
+            <tr class="headings">
+                <?php $i = 0;
+                $columns = $block->getColumns();
+                $lastItemNumber = count($columns) ?>
+                <?php foreach ($columns as $columnName => $columnTitle):?>
+                    <?php $i++; ?>
+                    <th class="col-<?= /* @noEscape */ $columnName ?><?= /* @noEscape */ ($i === $lastItemNumber ? ' last' : '') ?>"><span><?= /* @noEscape */ $columnTitle ?></span></th>
+                <?php endforeach; ?>
+                <th class="col-suppliers">Suppliers</th>
+                 <?php if($j):?><th class="col-select-sup">Select Supplier</th><?php endif; ?>
+            </tr>
+        </thead>
+        <?php $i = 0; foreach ($_items as $_item):?>
+            <?php if ($_item->getParentItem()) {
+                continue;
+            } else {
+                $i++;
+            }?>
+            <tbody class="<?= /* @noEscape */ $i%2 ? 'even' : 'odd' ?>">
+                <?= $block->getItemHtml($_item) ?>
+                <?= $block->getItemExtraInfoHtml($_item) ?>
+
+            </tbody>
+        <?php endforeach; ?>
+    </table>
+    <div>
+            <?php if($j):?><button type="submit">Submit</button><?php endif; ?>
+    </div>
+    </form>
+</div>

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Zehntech_PriceMatrix
+ *
+ * @category    Zehntech
+ * @package     Zehntech_PriceMatrix
+ * @author      Zehntech Technologies Private Limited
+ *
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+
+        <add id="Zehntech_PriceMatrix::manager" title="Price Matrix" module="Zehntech_PriceMatrix" sortOrder="10"
+             resource="Zehntech_PriceMatrix::manager"/>
+
+        <add id="Zehntech_PriceMatrix::small_row" title="Small Price Matrix" module="Zehntech_PriceMatrix"
+             sortOrder="20"
+             parent="Zehntech_PriceMatrix::manager" action="smallpricematrix/matrix"
+             resource="Zehntech_PriceMatrix::add_row"/>
+
+        <add id="Zehntech_PriceMatrix::medium_row" title="Medium Price Matrix" module="Zehntech_PriceMatrix"
+             sortOrder="20"
+             parent="Zehntech_PriceMatrix::manager" action="mediumpricematrix/mediummatrix"
+             resource="Zehntech_PriceMatrix::add_row"/>
+
+        <add id="Zehntech_PriceMatrix::large_row" title="Large Price Matrix" module="Zehntech_PriceMatrix"
+             sortOrder="20"
+             parent="Zehntech_PriceMatrix::manager" action="largepricematrix/largematrix"
+             resource="Zehntech_PriceMatrix::add_row"/>
+
+         <add id="Zehntech_PriceMatrix::ols_row" title="Ols Price Matrix" module="Zehntech_PriceMatrix"
+             sortOrder="20"
+             parent="Zehntech_PriceMatrix::manager" action="olspricematrix/olsmatrix"
+             resource="Zehntech_PriceMatrix::add_row"/>
+
+    </menu>
+</config>

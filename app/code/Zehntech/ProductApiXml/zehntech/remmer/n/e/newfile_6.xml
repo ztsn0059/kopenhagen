@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<StockTable>
+  <ClientID>702607600</ClientID>
+  <Item>
+    <DistPartNumber>10000790</DistPartNumber>
+    <ManufactPartNumber>BROTZ232</ManufactPartNumber>
+    <Brand>Brother</Brand>
+    <ProductName>Brother teksttape TZe-232  12mm Rød/Hvid</ProductName>
+    <ItemName3></ItemName3>
+    <Price>65.05</Price>
+    <RecPrice1>203.75</RecPrice1>
+    <RecPrice2>203.75</RecPrice2>
+    <Stock>70</Stock>
+    <barcode>4977766685245</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161402</Category3>
+    <CategoryText3>Teksttape</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>25</OuterPack>
+    <KatalogPage>Side 249</KatalogPage>
+    <OEM>TZE232</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10000790.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>1</Packing>
+    <Synonym>10.000.790 TZE232 TZ tape TZe tape Brand:Brother Format:12 mm Tekstfarve/tapefarve:Rød/hvid 10.000.790 Prægetape TC Tape TZ232 Teksttape dymotape dymo tape tape brother tape</Synonym>
+    <EnviroCode>&quot;Brother&quot;</EnviroCode>
+    <ExtText>
+      Teksttape Brother TZ232 12mm rød/hvid, længde 8 m
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>10000820</DistPartNumber>
+    <ManufactPartNumber>BROTZ241</ManufactPartNumber>
+    <Brand>Brother</Brand>
+    <ProductName>Brother teksttape TZe-241 18mm Sort/Hvid</ProductName>
+    <ItemName3></ItemName3>
+    <Price>78.15</Price>
+    <RecPrice1>260.54</RecPrice1>
+    <RecPrice2>260.54</RecPrice2>
+    <Stock>372</Stock>
+    <barcode>4977766685306</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161402</Category3>
+    <CategoryText3>Teksttape</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>25</OuterPack>
+    <KatalogPage>Side 249</KatalogPage>
+    <OEM>TZE241</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10000820.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>5</Packing>
+    <Synonym>10.000.820 TZE241 TZ tape TZe tape Brand:Brother Format:18 mm Tekstfarve/tapefarve:Sort/hvid 10.000.820 Prægetape TC Tape TZ241 Teksttape dymotape dymo tape tape brother teksttape brother tape   TZE241</Synonym>
+    <EnviroCode>&quot;Brother&quot;</EnviroCode>
+    <ExtText>
+      Teksttape Brother TZ241 18mm sort/hvid, længde  8 m
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>10000830</DistPartNumber>
+    <ManufactPartNumber>BROTZ641</ManufactPartNumber>
+    <Brand>Brother</Brand>
+    <ProductName>Brother teksttape TZe-641 18mm Sort/Gul</ProductName>
+    <ItemName3></ItemName3>
+    <Price>78.15</Price>
+    <RecPrice1>260.54</RecPrice1>
+    <RecPrice2>260.54</RecPrice2>
+    <Stock>121</Stock>
+    <barcode>4977766686716</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161402</Category3>
+    <CategoryText3>Teksttape</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>25</OuterPack>
+    <KatalogPage>Side 249</KatalogPage>
+    <OEM>TZE641</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10000830.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>5</Packing>
+    <Synonym>10.000.830 TZE641 TZ tape TZe tape Brand:Brother Format:18 mm Tekstfarve/tapefarve:Sort/gul 10.000.830 Prægetape TC Tape TZ641 Teksttape dymotape dymo tape tape brother tape</Synonym>
+    <EnviroCode>&quot;Brother&quot;</EnviroCode>
+    <ExtText>
+      Teksttape Brother TZ641 18mm sort/gul, længde 8 m
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>10000840</DistPartNumber>
+    <ManufactPartNumber>BROTZ345</ManufactPartNumber>
+    <Brand>Brother</Brand>
+    <ProductName>Brother teksttape TZe-345  18mm Hvid/Sort</ProductName>
+    <ItemName3></ItemName3>
+    <Price>91.00</Price>
+    <RecPrice1>273.91</RecPrice1>
+    <RecPrice2>273.91</RecPrice2>
+    <Stock>47</Stock>
+    <barcode>4977766685795</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161402</Category3>
+    <CategoryText3>Teksttape</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>25</OuterPack>
+    <KatalogPage>Side 249</KatalogPage>
+    <OEM>TZE345</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10000840.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>5</Packing>
+    <Synonym>10.000.840 TZE345 TZ tape TZe tape Brand:Brother Format:18 mm Tekstfarve/tapefarve:Hvid/sort 10.000.840 Prægetape TC Tape TZ345 Teksttape dymotape dymo tape tape brother tape</Synonym>
+    <EnviroCode>&quot;Brother&quot;</EnviroCode>
+    <ExtText>
+      Teksttape Brother TZ345 18mm hvid/sort, længde 8 m
+    </ExtText>
+  </Item>
+</StockTable>

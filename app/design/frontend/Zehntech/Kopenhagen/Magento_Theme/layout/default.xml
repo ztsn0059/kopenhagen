@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="default_head_blocks"/>
+    <body>
+        <referenceBlock name="header-wrapper" remove="true"/>
+        <!-- search bar -->
+        <referenceBlock name="logo" remove="true"/>
+        <referenceBlock name="header.panel.wrapper" remove="true"/>
+        <move element="catalog.topnav" destination="nav.top.block-10"/>
+        <!-- <referenceBlock name="top.search" remove="true"/> -->
+        <move element="top.search" destination="header.block"/>
+        <move element="minicart" destination="nav.top.block" />
+        <!--cart-->
+
+        <referenceContainer name="header.container">
+            <container name="header.container.row" as="header.container.row" label="Page Header Container" htmlTag="div" htmlClass="headertop" after="-"/>
+            <container name="nav.topbar" label="navtopbar" as="navtopbar" htmlTag="div" htmlClass="container-fluid navtop" after="header.container.row"/>
+            <container name="logo.list" label="logolist" as="logolist" htmlTag="div" htmlClass="head-logo-list" after="nav.topbar" />
+        </referenceContainer>
+
+        <referenceContainer name="header.container.row">
+            <block name="header.block" class="Zehntech\CustomerProducts\Block\CustomerCheck" template="Magento_Theme::html/kopen_header.phtml" cacheable="false">
+            </block>
+        </referenceContainer>
+
+        <referenceContainer name="nav.topbar">
+            <container name="nav.top.block" label="navtopblock" as="navtopblock" htmlTag="div" htmlClass="row container">
+                <container name="nav.top.block-10" label="navtopblock" as="navtopblock" htmlTag="div" htmlClass="col-sm-10 cat-nav"/>
+            </container>
+        </referenceContainer>
+
+        <referenceContainer name="logo.list">
+            <block name="logo.list.block" template="Magento_Theme::html/main-content-before.phtml"/>
+            <block name="test.block" template="Magento_Theme::test.phtml" class="Magento\Customer\Block\Account\Customer"/>
+           <!--  <block class="Magento\Cms\Block\Block" name="head-logo-list" cacheable="false"> 
+                <arguments> 
+                    <argument name="logo.list.block" xsi:type="string">head-logo-list</argument> 
+                </arguments> 
+            </block> -->
+        </referenceContainer>
+
+        <!-- footer -->
+        <referenceBlock name="footer_links" remove="true"/>
+        <referenceBlock name="form.subscribe" remove="true"/>
+        <referenceBlock name="copyright" remove="true"/>
+        <referenceContainer name="footer-container">
+            <block name="footer.container.block" template="Magento_Theme::html/footer.phtml" before="copyright"/>
+        </referenceContainer>
+
+        <move element="breadcrumbs" destination="columns.top" after="page.main.title"/>
+        <referenceBlock name="brand.sidebar" remove="true"/>
+
+       <!-- <referenceContainer name="header-wrapper">
+            <block class="Magento\Framework\View\Element\Template" name="top.search" as="topSearch" template="Magento_Search::form.mini.phtml" />
+        </referenceContainer>
+ -->
+<!--         <referenceContainer name="head.additional">
+            <block class="Magento\Framework\View\Element\Template" name="gtm.head" before="-" template="Magento_Theme::GTM/gtm_head.phtml" />
+        </referenceContainer>
+
+        <referenceContainer name="after.body.start">
+            <block class="Magento\Framework\View\Element\Template" name="gtm.body" before="-" template="Magento_Theme::GTM/gtm_body.phtml" />
+        </referenceContainer> -->
+    </body>
+</page>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- <preference for="Magento\InventoryShippingAdminUi\Observer\NewShipmentLoadBefore" type="Zehntech\Test\Observer\NewShipment" /> -->
+  <!-- <preference for="Magento\InventoryShipping\Observer\SourceDeductionProcessor" type="Zehntech\Test\Observer\SourceDeductionProcessor" /> -->
+
+
+<!-- 	<preference for="Magento\InventorySourceSelection\Model\Result\SourceSelectionItem" type="Zehntech\Test\Model\SourceSelectionItem" />
+
+	<preference for="Magento\InventorySourceSelectionApi\Model\Algorithms\Result\GetDefaultSortedSourcesResult" type="Zehntech\Test\Model\GetDefaultSortedSourcesResult" />
+
+	<preference for="Magento\InventoryShippingAdminUi\Ui\DataProvider\GetSourcesByOrderIdSkuAndQty" type="Zehntech\Test\Model\GetSourcesByOrderIdSkuAndQty" />
+ -->
+
+	<!-- <preference for="Magento\Inventory\Model\SourceItem" type="Zehntech\Test\Model\Product\SourceItem" /> -->
+
+<!-- 	<type name="Magento\InventoryCatalogAdminUi\Model\GetSourceItemsDataBySku">
+		<plugin name="get_cost_extension" type="Zehntech\Test\Plugin\CodeExtensionPlugin" sortOrder="10" disabled="false"/>
+	</type> -->
+
+<!-- 	<type name="Magento\Customer\Model\EmailNotification">
+		<plugin name="email_customize" type="Zehntech\Test\Plugin\BeforeSentMail" sortOrder="10" disabled="false"/>
+	</type> -->
+	<!-- <preference for="Magento\Customer\Model\EmailNotification" type="Zehntech\Test\Model\EmailNotification"/> -->
+</config>

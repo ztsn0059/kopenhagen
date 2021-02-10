@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category  Zehntech
+ * @package   Zehntech_Mmd
+ * @author    Zehntech
+ * author @SumitKumarNamdeo
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <uiComponent name="mmd_record_mmd_list"/>
+        </referenceContainer>
+    </body>
+</page>

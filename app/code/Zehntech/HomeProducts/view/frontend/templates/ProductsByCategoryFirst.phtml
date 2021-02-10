@@ -1,0 +1,112 @@
+<?php
+echo __('<h2>Xerox printere</h2>');
+$productsByCategory = $block->getProductsByCategory(10052);
+
+?>
+<script type="text/javascript" xml="space">
+    require([
+        'jquery',
+        'slick'
+    ], function ($) {
+        $(document).ready(function () {
+            $('.products-by-category-1').slick({
+                dots: false,
+                slidesPerRow: 4,
+                rows: 2,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesPerRow: 4,
+                            rows: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 640,
+                        settings: {
+                            slidesPerRow: 1,
+                            rows: 1,
+                        }
+                    }
+                ]
+            });
+        });
+    });
+</script>
+
+<div class="products-by-category-1">
+    <?php
+    foreach ($productsByCategory as $product) {
+        ?>
+        <div class="product-border">
+            <?php $brand = $block->getBrand($product); ?>
+            <a href="<?= $brand->getUrl();?>" class="product-brand-link">
+                    <?php if($brand->getSmallImage()) : ?>
+                        <img src='<?= $brand->getSmallImageUrl(); ?>'  >
+                    <?php else: ?>
+                        <span><?= $brand->getName(); ?></span>
+                    <?php endif; ?>
+            </a>
+            <div class="row w-100 ml-0 mt-2 product-img-block">
+                <a href="<?php echo $product->getProductUrl(); ?>"
+                   class="product-url">
+                    <img class="product-img"
+                         src="//<?php echo $product->getImageurl(); ?>">
+                </a>
+            </div>
+            <div class="row w-100 ml-0 mt-2 name-block mb-4">
+                <a href="<?php echo $product->getProductUrl(); ?>"
+                   class="product-title"><?php echo $product->getName(); ?></a>
+            </div>
+            <div class="stock-status">
+                <?php
+                    $blockObj= $block->getLayout()->createBlock('Zehntech\HomeProducts\Block\StockBySource');
+                    $sourceData = $blockObj->getSourceStockBySku($product->getSku());
+                ?>
+                <span><i class="fa fa-circle mr-1 <?= $sourceData['quantity']>=$product->getMinsales() ? 'stock-in' : 'out-stock'; ?>"></i></span>
+                <?php if($sourceData['quantity']>=$product->getMinsales()):
+                    echo "På lager";
+                else:
+                    echo "Udsolgt";
+                endif;?>
+            </div>
+            <div class="row w-100 ml-0 align-items-end">
+                <div class="col-md-6">
+                    <div class="row in-price notranslate">
+                        <?php echo $product->getFormattedPrice(); ?>
+                    </div>
+
+                </div>
+                <div class="col-md-6 pr-0">
+                    <?php $postParams = $block->getAddToCartPostParams($product); ?>
+                    <form data-role="tocart-form" action="<?php echo $postParams['action']; ?>" method="post">
+                        <input type="hidden" name="product" value="<?php echo $postParams['data']['product']; ?>">
+                        <input type="hidden" name="<?php echo $block->getActionClassObj()::PARAM_NAME_URL_ENCODED; ?>"
+                               value="<?php echo $postParams['data'][$block->getActionClassObj()::PARAM_NAME_URL_ENCODED]; ?>">
+                        <input type="hidden"
+                               name="qty"
+                               value="<?= /* @escapeNotVerified */
+                               $block->getProductDefaultQty() * 1 ?>"
+                               title="<?= /* @escapeNotVerified */
+                               __('Qty') ?>"
+                               class="input-text qty"
+                               style="width:40px;"
+                               data-validate="<?= $block->escapeHtml(json_encode($block->getQuantityValidators())) ?>"
+                        />
+                        <input name="dashproduct" type="hidden" value="true">
+                        <?php echo $block->getBlockHtml('formkey') ?>
+                        </td>
+                        <td>
+                            <button class="add"><i class="fa fa-shopping-cart"></i>
+                                <span><?php echo __('KØB') ?></span></button>
+                    </form>
+                </div>
+            </div>
+            <div class="ex-price w-100">
+                        <span class="notranslate"><?php echo $block->getFormattedPrice($block->getPriceWithVat($product)); ?></span>&nbsp;inkl. moms
+            </div>
+        </div>
+        <?php
+    }
+    ?>
+</div>

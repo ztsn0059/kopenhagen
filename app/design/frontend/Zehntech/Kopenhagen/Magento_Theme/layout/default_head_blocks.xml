@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../vendor/magento/framework/Module/etc/module.xsd">
+    <head>
+        <css src="https://use.fontawesome.com/releases/v5.2.0/css/all.css" type="text/css" src_type="url"/>
+        <css src="css/kopenhagen.css"/>
+        <css src="css/bootstrap-4.0.0.min.css" />
+        <css src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" src_type="url"/>
+        <css src="https://use.fontawesome.com/releases/v5.2.0/css/all.css" type="text/css" src_type="url"/>
+        <script src="https://kit.fontawesome.com/a0d7d1f477.js" src_type="url"/>
+        <script src="Magento_Theme::js/kopenhagen.js"/>
+        <meta name="google-signin-client_id" content="928661333492-8hka4u5nfcd0f7bu76dspcoekn7jeb3g.apps.googleusercontent.com"/>
+        <meta name="google-site-verification" content="XRsvSBez7TsoymkzhzPSZsof5DYSZbtKqRokjYjb0kM" />
+    </head>
+</page>

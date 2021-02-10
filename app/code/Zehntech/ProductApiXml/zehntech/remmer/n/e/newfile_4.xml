@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<StockTable>
+  <ClientID>702607600</ClientID>
+  <Item>
+    <DistPartNumber>10000230</DistPartNumber>
+    <ManufactPartNumber>S0720570</ManufactPartNumber>
+    <Brand>Dymo</Brand>
+    <ProductName>Dymo teksttape D1 45017 12mm Sort/Rød</ProductName>
+    <ItemName3>45017</ItemName3>
+    <Price>70.12</Price>
+    <RecPrice1>210.60</RecPrice1>
+    <RecPrice2>210.60</RecPrice2>
+    <Stock>4</Stock>
+    <barcode>5411313450171</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161402</Category3>
+    <CategoryText3>Teksttape</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>5</OuterPack>
+    <KatalogPage>Side 254</KatalogPage>
+    <OEM>S0720570</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10000230.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>5</Packing>
+    <Synonym>10.000.230 45017 D1 tape Brand:Dymo Format:12 mm Tekstfarve/tapefarve:Sort/rød Type:D1 10.000.230 Prægetape 45017 Teksttape dymotape dymo tape tape   S0720570</Synonym>
+    <EnviroCode>&quot;Dymo&quot;</EnviroCode>
+    <ExtText>
+      Teksttape Dymo 45017 12mm sort/rød, længde 7 m
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>10000240</DistPartNumber>
+    <ManufactPartNumber>S0720550</ManufactPartNumber>
+    <Brand>Dymo</Brand>
+    <ProductName>Dymo teksttape D1 45015 12mm Rød/Hvid</ProductName>
+    <ItemName3>45015</ItemName3>
+    <Price>70.12</Price>
+    <RecPrice1>210.60</RecPrice1>
+    <RecPrice2>210.60</RecPrice2>
+    <Stock>28</Stock>
+    <barcode>5411313450157</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161402</Category3>
+    <CategoryText3>Teksttape</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>5</OuterPack>
+    <KatalogPage>Side 254</KatalogPage>
+    <OEM>S0720550</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10000240.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>5</Packing>
+    <Synonym>10.000.240 45015 D1 tape Brand:Dymo Format:12 mm Tekstfarve/tapefarve:Rød/hvid Type:D1 10.000.240 Prægetape 45015 Teksttape dymotape dymo tape tape   S0720550</Synonym>
+    <EnviroCode>&quot;Dymo&quot;</EnviroCode>
+    <ExtText>
+      Teksttape Dymo 45015 12mm rød/hvid, længde 7 m
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>10000250</DistPartNumber>
+    <ManufactPartNumber>S0720540</ManufactPartNumber>
+    <Brand>Dymo</Brand>
+    <ProductName>Dymo teksttape D1 45014 12mm Blå/Hvid</ProductName>
+    <ItemName3>45014</ItemName3>
+    <Price>70.12</Price>
+    <RecPrice1>210.60</RecPrice1>
+    <RecPrice2>210.60</RecPrice2>
+    <Stock>7</Stock>
+    <barcode>5411313450140</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161402</Category3>
+    <CategoryText3>Teksttape</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>5</OuterPack>
+    <KatalogPage>Side 254</KatalogPage>
+    <OEM>S0720540</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10000250.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>5</Packing>
+    <Synonym>10.000.250 45014 D1 tape Brand:Dymo Format:12 mm Tekstfarve/tapefarve:Blå/hvid Type:D1 10.000.250 Prægetape 45014 Teksttape dymotape dymo tape tape   S0720540</Synonym>
+    <EnviroCode>&quot;Dymo&quot;</EnviroCode>
+    <ExtText>
+      Teksttape Dymo 45014 12mm blå/hvid, længde 7 m
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>10000260</DistPartNumber>
+    <ManufactPartNumber>S0720560</ManufactPartNumber>
+    <Brand>Dymo</Brand>
+    <ProductName>Dymo teksttape D1 45016 12mm Sort/Blå</ProductName>
+    <ItemName3>45016</ItemName3>
+    <Price>70.12</Price>
+    <RecPrice1>210.60</RecPrice1>
+    <RecPrice2>210.60</RecPrice2>
+    <Stock>14</Stock>
+    <barcode>5411313450164</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161402</Category3>
+    <CategoryText3>Teksttape</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>5</OuterPack>
+    <KatalogPage>Side 254</KatalogPage>
+    <OEM>S0720560</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10000260.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>5</Packing>
+    <Synonym>10.000.260 45016 D1 tape Brand:Dymo Format:12 mm Tekstfarve/tapefarve:Sort/blå Type:D1 10.000.260 Prægetape 45016 Teksttape dymotape dymo tape tape   S0720560</Synonym>
+    <EnviroCode>&quot;Dymo&quot;</EnviroCode>
+    <ExtText>
+      Teksttape Dymo 45016 12mm sort/blå, længde 7 m
+    </ExtText>
+  </Item>
+</StockTable>

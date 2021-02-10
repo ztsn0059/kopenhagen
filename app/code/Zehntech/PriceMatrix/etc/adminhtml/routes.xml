@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+
+        <route id="smallpricematrix" frontName="smallpricematrix">
+            <module name="Zehntech_PriceMatrix"/>
+        </route>
+
+        <route id="mediumpricematrix" frontName="mediumpricematrix">
+            <module name="Zehntech_PriceMatrix"/>
+        </route>
+
+        <route id="largepricematrix" frontName="largepricematrix">
+            <module name="Zehntech_PriceMatrix"/>
+        </route>
+
+        <route id="olspricematrix" frontName="olspricematrix">
+            <module name="Zehntech_PriceMatrix"/>
+        </route>
+
+    </router>
+</config>

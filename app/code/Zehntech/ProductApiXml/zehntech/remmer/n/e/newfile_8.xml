@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<StockTable>
+  <ClientID>702607600</ClientID>
+  <Item>
+    <DistPartNumber>10000920</DistPartNumber>
+    <ManufactPartNumber>BROTZ661</ManufactPartNumber>
+    <Brand>Brother</Brand>
+    <ProductName>Brother teksttape TZe-661  36mm Sort/Gul</ProductName>
+    <ItemName3></ItemName3>
+    <Price>117.05</Price>
+    <RecPrice1>337.08</RecPrice1>
+    <RecPrice2>337.08</RecPrice2>
+    <Stock>81</Stock>
+    <barcode>4977766686778</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161402</Category3>
+    <CategoryText3>Teksttape</CategoryText3>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>25</OuterPack>
+    <KatalogPage>Side 249</KatalogPage>
+    <OEM>TZE661</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10000920.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>5</Packing>
+    <Synonym>10.000.920 TZE661 TZ tape TZe tape Brand:Brother Format:36 mm Tekstfarve/tapefarve:Sort/gul 10.000.920 Prægetape TC Tape TZ661 Teksttape dymotape dymo tape tape brother tape</Synonym>
+    <EnviroCode>&quot;Brother&quot;</EnviroCode>
+    <ExtText>
+      Teksttape Brother TZ661 36mm sort/gul, længde 8 m
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>10001000</DistPartNumber>
+    <ManufactPartNumber>S0722370</ManufactPartNumber>
+    <Brand>Dymo</Brand>
+    <ProductName>Dymo etiket 99010 Adresse  89x28mm perman. Hvid Æsk/2x130</ProductName>
+    <ItemName3></ItemName3>
+    <Price>58.35</Price>
+    <RecPrice1>208.34</RecPrice1>
+    <RecPrice2>208.34</RecPrice2>
+    <Stock>19</Stock>
+    <barcode>5411313990103</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161403</Category3>
+    <CategoryText3>Etiketter</CategoryText3>
+    <StockUnit>Æsk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>1</OuterPack>
+    <KatalogPage>Side 255</KatalogPage>
+    <OEM>S0722370</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10001000.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>1</Packing>
+    <Synonym>10.001.000 99010 Dymo etiketter Dymoetiketter Etiketter Brand:Dymo Type:Permanent 10.001.000 etiket 99010   S0722370</Synonym>
+    <EnviroCode>&quot;Dymo&quot;</EnviroCode>
+  </Item>
+  <Item>
+    <DistPartNumber>10001010</DistPartNumber>
+    <ManufactPartNumber>S0722400</ManufactPartNumber>
+    <Brand>Dymo</Brand>
+    <ProductName>Dymo etiket 99012 Adresse  89x36mm Perman. Hvid Æsk/2x260</ProductName>
+    <ItemName3></ItemName3>
+    <Price>115.65</Price>
+    <RecPrice1>380.67</RecPrice1>
+    <RecPrice2>380.67</RecPrice2>
+    <Stock>47</Stock>
+    <barcode>5411313990127</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161403</Category3>
+    <CategoryText3>Etiketter</CategoryText3>
+    <StockUnit>Æsk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>6</OuterPack>
+    <KatalogPage>Side 255</KatalogPage>
+    <OEM>S0722400</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10001010.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>1</Packing>
+    <Synonym>10.001.010 99012 Dymo etiketter Dymoetiketter Etiketter Brand:Dymo Type:Permanent 10.001.010 etiket 99012 etiketter dymo etiketter adresseetiketter   S0722400</Synonym>
+    <EnviroCode>&quot;Dymo&quot;</EnviroCode>
+    <ExtText>
+      Adresseetiket Dymo 99012, 89x36mm Permanent. Hvid
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>10001020</DistPartNumber>
+    <ManufactPartNumber>S0722430</ManufactPartNumber>
+    <Brand>Dymo</Brand>
+    <ProductName>Dymo etiket 99014 Shipping  101x54mm Perman. Hvid Rl/220</ProductName>
+    <ItemName3></ItemName3>
+    <Price>96.85</Price>
+    <RecPrice1>349.20</RecPrice1>
+    <RecPrice2>349.20</RecPrice2>
+    <Stock>47</Stock>
+    <barcode>5411313990141</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161403</Category3>
+    <CategoryText3>Etiketter</CategoryText3>
+    <StockUnit>Æsk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>6</OuterPack>
+    <KatalogPage>Side 255</KatalogPage>
+    <OEM>S0722430</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10001020.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>1</Packing>
+    <Synonym>10.001.020 99014 Dymo etiketter Dymoetiketter Etiketter Brand:Dymo Type:Permanent 10.001.020 etiket 99014   S0722430</Synonym>
+    <EnviroCode>&quot;Dymo&quot;</EnviroCode>
+  </Item>
+  <Item>
+    <DistPartNumber>10001030</DistPartNumber>
+    <ManufactPartNumber>S0722460</ManufactPartNumber>
+    <Brand>Dymo</Brand>
+    <ProductName>Dymo etiket 99017 Hængemappe  50x12mm Perman. Hvid Rl/220</ProductName>
+    <ItemName3></ItemName3>
+    <Price>62.95</Price>
+    <RecPrice1>126.75</RecPrice1>
+    <RecPrice2>126.75</RecPrice2>
+    <Stock>8</Stock>
+    <barcode>5411313990172</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161403</Category3>
+    <CategoryText3>Etiketter</CategoryText3>
+    <StockUnit>Æsk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>6</OuterPack>
+    <KatalogPage>Side 255</KatalogPage>
+    <OEM>S0722460</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10001030.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>6</Packing>
+    <Synonym>10.001.030 99017 Dymo etiketter Dymoetiketter Etiketter Brand:Dymo Type:Permanent 10.001.030 etiket 99017   S0722460</Synonym>
+    <EnviroCode>&quot;Dymo&quot;</EnviroCode>
+  </Item>
+  <Item>
+    <DistPartNumber>10001050</DistPartNumber>
+    <ManufactPartNumber>S0722520</ManufactPartNumber>
+    <Brand>Dymo</Brand>
+    <ProductName>Dymo etiket 11352 Returadres  25x54mm Perman.lim Hvid</ProductName>
+    <ItemName3></ItemName3>
+    <Price>56.64</Price>
+    <RecPrice1>251.32</RecPrice1>
+    <RecPrice2>251.32</RecPrice2>
+    <Stock>4</Stock>
+    <barcode>5411313113526</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>02</HeadCategory>
+    <HeadCategoryText>Kontorartikler</HeadCategoryText>
+    <Category>0216</Category>
+    <CategoryText>Etiketter og mærkning</CategoryText>
+    <HeadCategory2>0216</HeadCategory2>
+    <HeadCategoryText2>Etiketter og mærkning</HeadCategoryText2>
+    <Category2>021614</Category2>
+    <CategoryText2>Labelprint og tilbehør</CategoryText2>
+    <HeadCategory3>021614</HeadCategory3>
+    <HeadCategoryText3>Labelprint og tilbehør</HeadCategoryText3>
+    <Category3>02161403</Category3>
+    <CategoryText3>Etiketter</CategoryText3>
+    <StockUnit>Æsk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>6</OuterPack>
+    <KatalogPage>Side 255</KatalogPage>
+    <OEM>S0722520</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/10001050.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>1</Packing>
+    <Synonym>10.001.050 11352 Dymo etiketter Dymoetiketter Etiketter Brand:Dymo Type:Permanent 10.001.050 etiket 11352   S0722520</Synonym>
+    <EnviroCode>&quot;Dymo&quot;</EnviroCode>
+  </Item>
+</StockTable>

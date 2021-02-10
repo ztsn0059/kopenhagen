@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<!--
+/** Grid di xml
+ * Grid Grid Model.
+ * @category  Zehntech
+ * @package   Zehntech_PriceMatrix
+ * @author    Zehntech
+ * @copyright Copyright (c) 2010-2017 Webkul Software Private Limited (https://zehntech.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Zehntech\PriceMatrix\Api\Data\SmallMatrixInterface" type="Zehntech\PriceMatrix\Model\SmallMatrix"/>
+
+    <preference for="Zehntech\PriceMatrix\Api\Data\MediumMatrixInterface"
+                type="Zehntech\PriceMatrix\Model\MediumMatrix"/>
+    
+    <preference for="Zehntech\PriceMatrix\Api\Data\LargeMatrixInterface"
+                type="Zehntech\PriceMatrix\Model\LargeMatrix"/>
+    
+     <preference for="Zehntech\PriceMatrix\Api\Data\OlsMatrixInterface"
+                type="Zehntech\PriceMatrix\Model\OlsMatrix"/>
+
+    <virtualType name="Zehntech\PriceMatrix\Model\ResourceModel\Grid\Collection"
+                 type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">zt_small_price_matrix</argument>
+            <argument name="resourceModel" xsi:type="string">Zehntech\PriceMatrix\Model\ResourceModel\SmallMatrix
+            </argument>
+        </arguments>
+    </virtualType>
+
+    <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="grid_record_grid_list_data_source" xsi:type="string">
+                    Zehntech\PriceMatrix\Model\ResourceModel\Grid\Collection
+                </item>
+            </argument>
+        </arguments>
+
+        <!--medium matrix-->
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="zehntech_pricematrix_mediummatrix_list_data_source" xsi:type="string">
+                    Zehntech\PriceMatrix\Model\ResourceModel\MediumMatrix\Collection
+                </item>
+            </argument>
+        </arguments>
+        <!--medium matrix-->
+
+        <!--large matrix-->
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="zehntech_pricematrix_largematrix_list_data_source" xsi:type="string">
+                    Zehntech\PriceMatrix\Model\ResourceModel\LargeMatrix\Collection
+                </item>
+            </argument>
+        </arguments>
+        <!--large matrix-->
+
+         <!--ols matrix-->
+        <arguments>
+            <argument name="collections" xsi:type="array">
+                <item name="zehntech_pricematrix_olsmatrix_list_data_source" xsi:type="string">
+                    Zehntech\PriceMatrix\Model\ResourceModel\OlsMatrix\Collection
+                </item>
+            </argument>
+        </arguments>
+        <!--ols matrix-->
+
+    </type>
+
+    <!--medium matrix-->
+
+    <virtualType name="Zehntech\PriceMatrix\Model\ResourceModel\MediumMatrix\Collection"
+                 type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">zt_medium_price_matrix</argument>
+            <argument name="resourceModel" xsi:type="string">Zehntech\PriceMatrix\Model\ResourceModel\MediumMatrix
+            </argument>
+        </arguments>
+    </virtualType>
+
+    <!--medium matrix-->
+
+    <!--large matrix-->
+    <virtualType name="Zehntech\PriceMatrix\Model\ResourceModel\LargeMatrix\Collection"
+                 type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">zt_large_price_matrix</argument>
+            <argument name="resourceModel" xsi:type="string">Zehntech\PriceMatrix\Model\ResourceModel\LargeMatrix
+            </argument>
+        </arguments>
+    </virtualType>
+    <!--large matrix-->
+
+    <!--ols matrix-->
+    <virtualType name="Zehntech\PriceMatrix\Model\ResourceModel\OlsMatrix\Collection"
+                 type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+        <arguments>
+            <argument name="mainTable" xsi:type="string">zt_ols_price_matrix</argument>
+            <argument name="resourceModel" xsi:type="string">Zehntech\PriceMatrix\Model\ResourceModel\OlsMatrix
+            </argument>
+        </arguments>
+    </virtualType>
+    <!--ols matrix-->
+
+</config>

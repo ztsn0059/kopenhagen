@@ -1,0 +1,41 @@
+<?php
+/**
+ * Magetop
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Magetop.com license that is
+ * available through the world-wide-web at this URL:
+ * https://www.magetop.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category    Magetop
+ * @package     Magetop_SocialLogin
+ * @copyright   Copyright (c) Magetop (http://www.magetop.com/)
+ * @license     https://www.magetop.com/LICENSE.txt
+ */
+
+ 
+
+$availableSocials = $block->getAvailableSocials();
+if ($block->canShow() && sizeof($availableSocials)):
+    ?>
+    <div class="login-social">
+    <h2>Log ind via sociale medier</h2>
+    <hr>
+    <?php foreach ($availableSocials as $key => $social): ?>
+        <a data-mage-init='{"socialProvider": {"url": "<?php echo $social['login_url'] ?>", "label": "<?php echo __('Login By %1', $social['label']) ?>"}}'>
+            <span><i class="fab fa-<?= $block->getBtnKey($key) ?>"></i> <?php echo $social['label'] ?></span>
+        </a>
+    <?php endforeach; ?>
+
+        <div>Ved hjælp af disse knapper kan du sætte dine sociale logins op så de kan bruges som login på Online Supplies.</div>
+    </div>
+
+<?php endif; ?>
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>

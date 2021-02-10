@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProduktInfoClass xmlns="http://www.mmd.dk/">
+    <ProduktInfoClass>
+    <ID>1</ID>
+    <DESC>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC>
+    <DESC2>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC2>
+    <DESC3>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC3>
+    <DESC4>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC4>
+    <DESC5>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC5>
+    <PROD>Prod-1</PROD>
+    <GROUP>Startcategory</GROUP>
+    <IDGROUP>5</IDGROUP>
+    <OEMNR>78915</OEMNR>
+    <PRICE>89</PRICE>
+    <VEJL>implements</VEJL>
+    <AFGIFT>implements</AFGIFT>
+    <QTY>25</QTY>
+    <DELDATE></DELDATE>
+    <DELQTY>25</DELQTY>
+    <PICTURE></PICTURE>
+    <SUBGROUP>childcat</SUBGROUP>
+    <MANSKU>Prod-sku-1</MANSKU>
+    <BESTILLINGSVARE>Try-1</BESTILLINGSVARE>
+    <MOQ>56</MOQ>
+    <KOLLIANTAL>25</KOLLIANTAL>
+    <KOLLIPRIS>25</KOLLIPRIS>
+    <DITVARENR>25</DITVARENR>
+    <MASTERKOLLI>25</MASTERKOLLI>
+    <MASTERKOLLIPRIS>25</MASTERKOLLIPRIS>
+    <EAN>456321561</EAN>
+  </ProduktInfoClass>
+  <ProduktInfoClass>
+    <ID>2</ID>
+    <DESC>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC>
+    <DESC2>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC2>
+    <DESC3>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC3>
+    <DESC4>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC4>
+    <DESC5>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC5>
+    <PROD>Prod-2</PROD>
+    <GROUP>Startcategory</GROUP>
+    <IDGROUP>5</IDGROUP>
+    <OEMNR>78916</OEMNR>
+    <PRICE>58</PRICE>
+    <VEJL>implements</VEJL>
+    <AFGIFT>implements</AFGIFT>
+    <QTY>35</QTY>
+    <DELDATE></DELDATE>
+    <DELQTY>35</DELQTY>
+    <PICTURE></PICTURE>
+    <SUBGROUP>childcat</SUBGROUP>
+    <MANSKU>Prod-sku-2</MANSKU>
+    <BESTILLINGSVARE>Try-2</BESTILLINGSVARE>
+    <MOQ>57</MOQ>
+    <KOLLIANTAL>35</KOLLIANTAL>
+    <KOLLIPRIS>35</KOLLIPRIS>
+    <DITVARENR>35</DITVARENR>
+    <MASTERKOLLI>35</MASTERKOLLI>
+    <MASTERKOLLIPRIS>35</MASTERKOLLIPRIS>
+    <EAN>456321562</EAN>
+  </ProduktInfoClass>
+  <ProduktInfoClass>
+    <ID>3</ID>
+    <DESC>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC>
+    <DESC2>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC2>
+    <DESC3>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC3>
+    <DESC4>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC4>
+    <DESC5>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC5>
+    <PROD>Prod-3</PROD>
+    <GROUP>Startcategory</GROUP>
+    <IDGROUP>5</IDGROUP>
+    <OEMNR>78917</OEMNR>
+    <PRICE>34</PRICE>
+    <VEJL>implements</VEJL>
+    <AFGIFT>implements</AFGIFT>
+    <QTY>15</QTY>
+    <DELDATE></DELDATE>
+    <DELQTY>15</DELQTY>
+    <PICTURE></PICTURE>
+    <SUBGROUP>childcat</SUBGROUP>
+    <MANSKU>Prod-sku-3</MANSKU>
+    <BESTILLINGSVARE>Try-3</BESTILLINGSVARE>
+    <MOQ>58</MOQ>
+    <KOLLIANTAL>15</KOLLIANTAL>
+    <KOLLIPRIS>15</KOLLIPRIS>
+    <DITVARENR>15</DITVARENR>
+    <MASTERKOLLI>15</MASTERKOLLI>
+    <MASTERKOLLIPRIS>15</MASTERKOLLIPRIS>
+    <EAN>456321563</EAN>
+  </ProduktInfoClass>
+  <ProduktInfoClass>
+    <ID>4</ID>
+    <DESC>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC>
+    <DESC2>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC2>
+    <DESC3>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC3>
+    <DESC4>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC4>
+    <DESC5>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC5>
+    <PROD>Prod-4</PROD>
+    <GROUP>Startcategory</GROUP>
+    <IDGROUP>5</IDGROUP>
+    <OEMNR>78918</OEMNR>
+    <PRICE>67</PRICE>
+    <VEJL>implements</VEJL>
+    <AFGIFT>implements</AFGIFT>
+    <QTY>62</QTY>
+    <DELDATE></DELDATE>
+    <DELQTY>62</DELQTY>
+    <PICTURE></PICTURE>
+    <SUBGROUP>childcat</SUBGROUP>
+    <MANSKU>Prod-sku-4</MANSKU>
+    <BESTILLINGSVARE>Try-4</BESTILLINGSVARE>
+    <MOQ>59</MOQ>
+    <KOLLIANTAL>62</KOLLIANTAL>
+    <KOLLIPRIS>62</KOLLIPRIS>
+    <DITVARENR>62</DITVARENR>
+    <MASTERKOLLI>62</MASTERKOLLI>
+    <MASTERKOLLIPRIS>62</MASTERKOLLIPRIS>
+    <EAN>456321564</EAN>
+  </ProduktInfoClass>
+  <ProduktInfoClass>
+    <ID>5</ID>
+    <DESC>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC>
+    <DESC2>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC2>
+    <DESC3>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC3>
+    <DESC4>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC4>
+    <DESC5>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC5>
+    <PROD>Prod-5</PROD>
+    <GROUP>Startcategory</GROUP>
+    <IDGROUP>5</IDGROUP>
+    <OEMNR>78919</OEMNR>
+    <PRICE>49</PRICE>
+    <VEJL>implements</VEJL>
+    <AFGIFT>implements</AFGIFT>
+    <QTY>3</QTY>
+    <DELDATE></DELDATE>
+    <DELQTY>3</DELQTY>
+    <PICTURE></PICTURE>
+    <SUBGROUP>childcat</SUBGROUP>
+    <MANSKU>Prod-sku-5</MANSKU>
+    <BESTILLINGSVARE>Try-5</BESTILLINGSVARE>
+    <MOQ>60</MOQ>
+    <KOLLIANTAL>3</KOLLIANTAL>
+    <KOLLIPRIS>3</KOLLIPRIS>
+    <DITVARENR>3</DITVARENR>
+    <MASTERKOLLI>3</MASTERKOLLI>
+    <MASTERKOLLIPRIS>3</MASTERKOLLIPRIS>
+    <EAN>456321565</EAN>
+  </ProduktInfoClass>
+  <ProduktInfoClass>
+    <ID>6</ID>
+    <DESC>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC>
+    <DESC2>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC2>
+    <DESC3>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC3>
+    <DESC4>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC4>
+    <DESC5>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC5>
+    <PROD>Prod-6</PROD>
+    <GROUP>Startcategory</GROUP>
+    <IDGROUP>5</IDGROUP>
+    <OEMNR>78920</OEMNR>
+    <PRICE>23</PRICE>
+    <VEJL>implements</VEJL>
+    <AFGIFT>implements</AFGIFT>
+    <QTY>91</QTY>
+    <DELDATE></DELDATE>
+    <DELQTY>91</DELQTY>
+    <PICTURE></PICTURE>
+    <SUBGROUP>childcat</SUBGROUP>
+    <MANSKU>Prod-sku-6</MANSKU>
+    <BESTILLINGSVARE>Try-6</BESTILLINGSVARE>
+    <MOQ>61</MOQ>
+    <KOLLIANTAL>91</KOLLIANTAL>
+    <KOLLIPRIS>91</KOLLIPRIS>
+    <DITVARENR>91</DITVARENR>
+    <MASTERKOLLI>91</MASTERKOLLI>
+    <MASTERKOLLIPRIS>91</MASTERKOLLIPRIS>
+    <EAN>456321566</EAN>
+  </ProduktInfoClass>
+  <ProduktInfoClass>
+    <ID>7</ID>
+    <DESC>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC>
+    <DESC2>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC2>
+    <DESC3>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC3>
+    <DESC4>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC4>
+    <DESC5>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC5>
+    <PROD>Prod-7</PROD>
+    <GROUP>Startcategory</GROUP>
+    <IDGROUP>5</IDGROUP>
+    <OEMNR>78921</OEMNR>
+    <PRICE>78</PRICE>
+    <VEJL>implements</VEJL>
+    <AFGIFT>implements</AFGIFT>
+    <QTY>64</QTY>
+    <DELDATE></DELDATE>
+    <DELQTY>64</DELQTY>
+    <PICTURE></PICTURE>
+    <SUBGROUP>childcat</SUBGROUP>
+    <MANSKU>Prod-sku-7</MANSKU>
+    <BESTILLINGSVARE>Try-7</BESTILLINGSVARE>
+    <MOQ>62</MOQ>
+    <KOLLIANTAL>64</KOLLIANTAL>
+    <KOLLIPRIS>64</KOLLIPRIS>
+    <DITVARENR>64</DITVARENR>
+    <MASTERKOLLI>64</MASTERKOLLI>
+    <MASTERKOLLIPRIS>64</MASTERKOLLIPRIS>
+    <EAN>456321567</EAN>
+  </ProduktInfoClass>
+  <ProduktInfoClass>
+    <ID>8</ID>
+    <DESC>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC>
+    <DESC2>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC2>
+    <DESC3>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC3>
+    <DESC4>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC4>
+    <DESC5>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC5>
+    <PROD>Prod-8</PROD>
+    <GROUP>Startcategory</GROUP>
+    <IDGROUP>5</IDGROUP>
+    <OEMNR>78922</OEMNR>
+    <PRICE>16</PRICE>
+    <VEJL>implements</VEJL>
+    <AFGIFT>implements</AFGIFT>
+    <QTY>59</QTY>
+    <DELDATE></DELDATE>
+    <DELQTY>59</DELQTY>
+    <PICTURE></PICTURE>
+    <SUBGROUP>childcat</SUBGROUP>
+    <MANSKU>Prod-sku-8</MANSKU>
+    <BESTILLINGSVARE>Try-8</BESTILLINGSVARE>
+    <MOQ>63</MOQ>
+    <KOLLIANTAL>59</KOLLIANTAL>
+    <KOLLIPRIS>59</KOLLIPRIS>
+    <DITVARENR>59</DITVARENR>
+    <MASTERKOLLI>59</MASTERKOLLI>
+    <MASTERKOLLIPRIS>59</MASTERKOLLIPRIS>
+    <EAN>456321568</EAN>
+  </ProduktInfoClass>
+  <ProduktInfoClass>
+    <ID>9</ID>
+    <DESC>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC>
+    <DESC2>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC2>
+    <DESC3>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC3>
+    <DESC4>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC4>
+    <DESC5>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC5>
+    <PROD>Prod-9</PROD>
+    <GROUP>Startcategory</GROUP>
+    <IDGROUP>5</IDGROUP>
+    <OEMNR>78923</OEMNR>
+    <PRICE>37</PRICE>
+    <VEJL>implements</VEJL>
+    <AFGIFT>implements</AFGIFT>
+    <QTY>28</QTY>
+    <DELDATE></DELDATE>
+    <DELQTY>28</DELQTY>
+    <PICTURE></PICTURE>
+    <SUBGROUP>childcat</SUBGROUP>
+    <MANSKU>Prod-sku-9</MANSKU>
+    <BESTILLINGSVARE>Try-9</BESTILLINGSVARE>
+    <MOQ>64</MOQ>
+    <KOLLIANTAL>28</KOLLIANTAL>
+    <KOLLIPRIS>28</KOLLIPRIS>
+    <DITVARENR>28</DITVARENR>
+    <MASTERKOLLI>28</MASTERKOLLI>
+    <MASTERKOLLIPRIS>28</MASTERKOLLIPRIS>
+    <EAN>456321569</EAN>
+  </ProduktInfoClass>
+  <ProduktInfoClass>
+    <ID>10</ID>
+    <DESC>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC>
+    <DESC2>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC2>
+    <DESC3>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC3>
+    <DESC4>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC4>
+    <DESC5>During creation extensions for Magento2, the developer often needs to return the data from the controller in the JSON format. </DESC5>
+    <PROD>Prod-10</PROD>
+    <GROUP>Startcategory</GROUP>
+    <IDGROUP>5</IDGROUP>
+    <OEMNR>78924</OEMNR>
+    <PRICE>98</PRICE>
+    <VEJL>implements</VEJL>
+    <AFGIFT>implements</AFGIFT>
+    <QTY>34</QTY>
+    <DELDATE></DELDATE>
+    <DELQTY>34</DELQTY>
+    <PICTURE></PICTURE>
+    <SUBGROUP>childcat</SUBGROUP>
+    <MANSKU>Prod-sku-10</MANSKU>
+    <BESTILLINGSVARE>Try-10</BESTILLINGSVARE>
+    <MOQ>65</MOQ>
+    <KOLLIANTAL>34</KOLLIANTAL>
+    <KOLLIPRIS>34</KOLLIPRIS>
+    <DITVARENR>34</DITVARENR>
+    <MASTERKOLLI>34</MASTERKOLLI>
+    <MASTERKOLLIPRIS>34</MASTERKOLLIPRIS>
+    <EAN>456321570</EAN>
+  </ProduktInfoClass>
+</ArrayOfProduktInfoClass>

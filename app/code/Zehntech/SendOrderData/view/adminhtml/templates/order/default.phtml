@@ -1,0 +1,60 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+?>
+<?php /** @var \Magento\Sales\Block\Adminhtml\Order\View\Items\Renderer\DefaultRenderer $block */ ?>
+<?php $_item = $block->getItem(); ?>
+<?php $block->setPriceDataObject($_item) ?>
+
+<tr>
+    <?php $i = 0;
+    $columns = $block->getColumns();
+    $lastItemNumber = count($columns) ?>
+    <?php foreach ($columns as $columnName => $columnClass):?>
+        <?php $i++; ?>
+        <td class="<?= /* @noEscape */ $columnClass ?><?= /* @noEscape */ ($i === $lastItemNumber ? ' last' : '') ?>"><?= /* @escapeNotVerified */ $block->getColumnHtml($_item, $columnName) ?></td>
+    <?php endforeach; ?>
+    <td style="width: 10%;padding: 6px;">
+    	<?php 
+    	$source = $block->getItem()->getSource();
+        $suppliers = $block->getResult();
+    	$array = array_column($suppliers, 'cost');
+    	if(is_array($suppliers)):
+    		?>
+		<?php
+    		foreach ($suppliers as $key => $value) :
+    			if($source && strcmp($source, $value['code'])!=0):
+    				continue;
+    			endif;
+    	?>
+		<div style="margin-bottom:5px;">
+    		<div style="font-weight:600;"><?= $value['code']?></div>
+    		<div>Qty: <?= $value['qty']?></div>
+    		<div>Cost: <?=number_format($value['cost'], 2, '.', '') ?></div>
+    	</div>
+    	<?php endforeach; ?>
+    	<?php endif; 
+    	?>
+    </td>
+    <td>
+    	<?php if(!$source):?>
+	    	<input type="hidden" name="source[<?= $block->getItem()->getId(); ?>][id]" value="<?= $block->getItem()->getId(); ?>"/>
+	    	<input type="hidden" name="source[<?= $block->getItem()->getId(); ?>][oem]" value="<?=$block->getItem()->getProduct()->getOem()?>"/>
+	    	<select id="item-<?= $block->getItem()->getId(); ?>" name="source[<?= $block->getItem()->getId(); ?>][name]" class="admin__control-select" data-validate="{required:true}">
+	    		<option value="empty">Select Supplier</option>
+				<?php if(is_array($suppliers)):
+					
+			    	foreach ($suppliers as $key => $value) :
+						$selected = $suppliers[array_search(min($array),$array)]['code']==$value['code'] ? 'selected' : '';
+			    		echo "<option value='".$value['code']."'".$selected.">".$value['code']."</option>";
+			    	endforeach;
+			    endif; ?>
+	    	</select>
+	<?php endif ?>
+    </td>
+</tr>

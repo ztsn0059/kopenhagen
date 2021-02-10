@@ -1,0 +1,25 @@
+<?php
+/**
+ * @var \Mageplaza\HelloWorld\Block\Display $block
+ */
+?>
+<pre>
+<?php
+    // print_r($block->getBannerSlides());
+    ?>
+    <!-- Header slider start -->
+  
+    <!-- Header slider end -->
+
+<?php
+
+
+$slider = $block->getSlider();
+$sliderBanner = $slider->getSliderBanerCollection();
+print_r($slider->getImage());
+
+
+?>
+<?= $block->getUrlPath();?>
+</pre>
+

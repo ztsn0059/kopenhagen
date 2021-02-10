@@ -1,0 +1,180 @@
+<div class="events-info-form">
+    <div class="title"><?php echo __('Events Information'); ?></div>
+    <div class="desc"><?php echo __('Submit event information.'); ?></div>
+</div>
+
+<form class="form create account form-create-account" action="<?php echo $block->getFormAction(); ?>" method="post"
+      id="events-info-form" enctype="multipart/form-data" autocomplete="off" novalidate="novalidate">
+    <input name="form_key" type="hidden" value="aA49aD9j4jGXogBn">
+    <fieldset class="fieldset create info">
+        <legend class="legend"><span><?php echo __('Information'); ?></span></legend>
+        <br>
+        <input type="hidden" name="is_active" value="0">
+        <input type="hidden" name="event_url_prefix" class="event_url_prefix" value="event-1-1">
+        <input type="hidden" name="color" class="color" value="black">
+        <input type="hidden" name="is_recurring" class="color" value="0">
+
+
+        <div class="field field-name-title required">
+            <label class="label" for="title"><span><?php echo __('Event Title'); ?></span></label>
+            <div class="control">
+                <input data-validate='{"required":true}' type="text" id="title" name="event_name" value=""
+                       title="Event Title" class="input-text required-entry front-event-title">
+            </div>
+        </div>
+
+        <div class="field field-name-lastname required">
+            <label class="label" for="event_venue"><span><?php echo __('Event Location'); ?></span></label>
+            <div class="control">
+                <input data-validate='{"required":true}' type="text" id="event_venue" name="event_venue" value=""
+                       title="Event venue" class="input-text required-entry">
+            </div>
+        </div>
+
+        <div class="field field-country required">
+            <label class="label" for="county"><span><?php echo __('Country'); ?></span></label>
+            <div class="control">
+                <select class="input-text required-entry" id="country-select" name="country"
+                        data-validate='{"required":true}'>
+                    <?php foreach ($block->getCountries() as $country) {
+                        ?>
+                        <option value="<?php echo $country['value'] ?>" <?php if($country['value'] == 'US'): echo "selected='selected'"; endif; ?>><?php echo $country['label'] ?></option>
+                    <?php } ?>
+                </select>
+            </div>
+        </div>
+
+        <div class="field field-date required">
+            <label class="label" for="email"><span><?php echo __('Start Date'); ?></span></label>
+            <div class="control">
+                <input data-validate='{"required":true}' type="text" id="event_start_date" name="event_start_date"
+                       value=""
+                       title="Start Date"
+                       class="input-text required-entry event-date">
+            </div>
+        </div>
+
+        <div class="field field-date required">
+            <label class="label" for="email"><span><?php echo __('End Date'); ?></span></label>
+            <div class="control">
+                <input data-validate='{"required":true}' type="text" id="event_end_date" name="event_end_date" value=""
+                       title="End Date"
+                       class="input-text required-entry event-date">
+            </div>
+        </div>
+
+        <div class="field field-description required">
+            <label class="label" for="description"><span><?php echo __('Event Description'); ?></span></label>
+            <div class="control">
+                <textarea data-validate='{"required":true}' id="event_content" rows="5" cols="5" name="event_content"
+                          value="" title="Event Description" class="input-text required-entry"></textarea>
+            </div>
+        </div>
+
+        <div class="field field-title required">
+            <label class="label" for="title"><span><?php echo __('Contact Person'); ?></span></label>
+            <div class="control">
+                <input data-validate='{"required":true}' type="text" id="contact_name" name="contact_name" value=""
+                       title="Contact Person"
+                       class="input-text required-entry">
+            </div>
+        </div>
+
+        <div class="field field-contact-email required">
+            <label class="label" for="contact_email"><span><?php echo __('Contact Email'); ?></span></label>
+            <div class="control">
+                <input data-validate='{"required":true}' type="text" id="contact_email" name="contact_email" value=""
+                       title="Contact Email" class="input-text required-entry">
+            </div>
+        </div>
+
+        <div class="field field-contact_phone required">
+            <label class="label" for="contact_phone"><span><?php echo __('Contact Phone'); ?></span></label>
+            <div class="control">
+                <input data-validate='{"required":true}' type="text" id="contact_phone" name="contact_phone" value=""
+                       title="Contact Phone" class="input-text required-entry">
+            </div>
+        </div>
+
+
+        <div class="field field-latitude">
+<!--            <label class="label" for="city"><span>--><?php //echo __('Venue Latitude'); ?><!--</span></label>-->
+            <div class="control">
+                <input type="hidden" id="latitude" name="latitude" value=""
+                       title="Venue Latitude"
+                       class="input-text">
+            </div>
+        </div>
+
+
+        <div class="field field-longitude">
+<!--            <label class="label" for="longitude"><span>--><?php //echo __('Venue Longitude'); ?><!--</span></label>-->
+            <div class="control">
+                <input type="hidden" id="longitude" name="longitude" value=""
+                       title="Venue Longtitude"
+                       class="input-text">
+            </div>
+        </div>
+
+        <div class="field field-phone required">
+            <label class="label" for="longitude"><span><?php echo __('Image'); ?></span></label>
+            <div class="control">
+                <input data-validate='{"required":true}' type="file" id="event_image" name="event_image" value=""
+                       title="Image"
+                       class="input-text required-entry">
+            </div>
+        </div>
+
+
+    </fieldset>
+
+    <div class="actions-toolbar">
+        <div class="primary">
+            <button type="submit" class="action submit primary" title="Create an Account"><span>Submit</span></button>
+        </div>
+    </div>
+</form>
+<script>// <![CDATA[
+    require([
+        'jquery',
+        "mage/calendar"
+    ], function ($) {
+
+        $(".event-date").calendar({
+            changeYear: true,
+            changeMonth: true,
+            yearRange: "2010:2050",
+            buttonText: "Select Date",
+        });
+
+        /*
+        * creating url key
+        * removing space and creating all lowercase
+        * adding "-"
+        */
+
+        $(".front-event-title").change(function () {
+            var title = $(this).val();
+            title = title.replace(/ /g, '-');
+            title = title.toLowerCase();
+
+            $('.event_url_prefix').val(title);
+        });
+
+
+    });
+</script>
+
+
+<script type="text/x-magento-init">
+    {
+        "#events-info-form": {
+            "validation": {}
+        }
+    }
+
+
+
+
+
+</script>

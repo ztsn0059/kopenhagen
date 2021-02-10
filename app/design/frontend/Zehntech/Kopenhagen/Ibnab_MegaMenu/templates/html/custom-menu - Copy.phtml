@@ -1,0 +1,137 @@
+<?php $columnsLimit = $block->getColumnsLimit() ?: 0; ?>
+<?php $_menu2 = $block->getHtml('level-top', 'mega', $columnsLimit) ?>
+<?php $_menu = $block->getHtml('level-top', 'submenu', $columnsLimit) ?>
+<?php $_menu3 = $block->getCustomNav(241,true) ?>
+<?php $_menu4 = $block->getCustomNav(243,true) ?>
+<?php $_customNav = $block->getSelectedcatNav() ?>
+<?php if ($block->allowExtension()): ?>
+    <script>
+
+        require([
+            'jquery',
+            'ibnabmodernizr'
+        ], function ($) {
+
+
+            $('.menu > ul > li:has( > ul)').addClass('menu-dropdown-icon');
+            //Checks if li has sub (ul) and adds class for toggle icon - just an UI
+
+             $('#header').append('<div class="popup-model"></div>');
+             // $('#header').append('<div class="popup-model" style="position: fixed;width:100%;height: 100%;top: 0;left: 0;opacity: 0.5;background-color: black;z-index: 9;display: none;"></div>');
+            // $('.menu > ul > li > ul:not(:has(ul))').addClass('normal-sub');
+            //Checks if drodown menu's li elements have anothere level (ul), if not the dropdown is shown as regular dropdown, not a mega menu (thanks Luka Kladaric)
+            var toggle = "<a href=\"#\" class=\"menu-mobile\"><span class=\"fa fa-bars\"></span></a>"
+            // $(".menu > ul").before("<a href=\"#\" class=\"menu-mobile\">Navigation</a>");
+            $(".menu > ul").before(toggle);
+
+            //Adds menu-mobile class (for mobile toggle menu) before the normal menu
+            //Mobile menu is hidden if width is more then 959px, but normal menu is displayed
+            //Normal menu is hidden if width is below 959px, and jquery adds mobile menu
+            //Done this way so it can be used with wordpress without any trouble
+
+            // $(".menu > ul > li").hover(function (e) {
+            //     if ($(window).width() > 943) {
+            //         $(this).children("ul").stop(true, false).fadeToggle(150);
+            //         e.preventDefault();
+            //     }
+            // });
+
+              $('a.level-top').click(function (e){
+                    e.preventDefault();
+                  })
+            $("li.menu-dropdown-icon").click(function (e) {
+                e.preventDefault(); //testing
+                $("#om > ul > li").children('a').removeClass('active-top');
+                $(this).find('a').first().addClass('active-top');
+                // if($(window).width() > 943) {
+                if($(window).width() > 959) {
+                    $('.popup-model').show();
+                    $(this).find("ul").first().show(function(){
+                        $(this).find('a').first().addClass('active-top');
+                        var menu = this;
+                        $('.navigation li.level1').hover(function(){
+                            $(menu).find('a').first().toggleClass('active-top');                                    
+                        })
+                        $(this).find(".level1.submenu.div-container").first().show();
+                    },0);
+                    $(this).siblings("li.menu-dropdown-icon").children('ul').hide();
+                }
+            });
+            $(".level1.submenu.div-container").hover(function(){
+                $(this).siblings().toggleClass('active-top');
+            })
+
+            $('.popup-model').click(function(){
+                var parent = $("li.menu-dropdown-icon"); 
+                parent.children('ul').hide();
+                parent.find('a').removeClass('active-top');
+                $(this).hide();
+            }) 
+            //If width is more than 943px dropdowns are displayed on hover
+
+            // $(".menu > ul > li").click(function () {
+            //     if ($(window).width() <= 943) {
+            //         $(this).children("ul").fadeToggle();
+            //     }
+            // });
+            //If width is less or equal to 943px dropdowns are displayed on click (thanks Aman Jain from stackoverflow)
+
+            $(".menu-mobile").click(function (e) {
+                $(".menu > ul").toggleClass('show-on-mobile');
+                $('.menu-close').toggleClass('cross-active',300);
+                $('#header > .popup-model').toggleClass('popup-active');
+                e.preventDefault();
+            });
+            $('.menu-close').click(function(){
+                $(".menu > ul").toggleClass('show-on-mobile');
+                $(this).toggleClass('cross-active',300);
+                $('#header > .popup-model').toggleClass('popup-active');
+            })
+            // mobile or pad screens only
+        
+            // $('.menu-mobile').click(function(){
+            //     $('.menu-close').show();
+            // })
+            // $('.menu-close').click(function(){
+            //     $('.show-on-mobile').hide();
+            //     $(this).hide();
+            // })
+            // mobile or pad screens only
+
+        });
+
+    </script>
+    <?php
+    /**
+     * Top menu for store
+     *
+     * @see \Magento\Theme\Block\Html\Topmenu
+     */
+    ?>
+    <nav class="navigation" role="navigation">
+
+        <div class="menu" id="om">
+            <ul>
+                <?php /* @escapeNotVerified */
+                echo $_menu2;
+                // echo $_menu3; 
+                // echo $_menu4;
+                echo $_customNav;
+            ?>
+            </ul>
+            <span class="menu-close fa fa-times"></span>
+        </div>
+        <ul id="dm"
+            data-mage-init='{"menu":{"responsive":true, "expanded":true, "position":{"my":"left top","at":"left bottom"}}}'>
+            <?php /* @escapeNotVerified */
+            echo $_menu; ?>
+        </ul>
+    </nav>
+
+<?php else : ?>
+
+    <nav class="navigation" role="navigation">
+        <?php /* @escapeNotVerified */
+        echo $_menu; ?>
+    </nav>
+<?php endif; ?>

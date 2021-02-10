@@ -1,0 +1,63 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+/* @var \Magento\Wishlist\Block\Share\Email\Items $block */
+?>
+<?php $l = $block->getWishlistItemsCount() ?>
+<div>
+    <table>
+        <tr>
+            <?php $i = 0;
+            foreach ($block->getWishlistItems() as $item): $i++ ?>
+            <?php /* @var $item \Magento\Wishlist\Model\Item */ ?>
+            <?php /* @var $_product \Magento\Catalog\Model\Product */ ?>
+            <?php $_product = $item->getProduct(); ?>
+            <td class="col product" style="width:33%;">
+                <p style="text-align:center;min-height: 150px;">
+                    <a href="<?= $block->escapeUrl($block->getProductUrl($_product)) ?>">
+                        <?php if($_product->getImageurl()): ?>
+                        <?php $imgUrl = is_numeric(strrpos($_product->getImageurl(), 'http')) ? $_product->getImageurl() : 'https://'.$_product->getImageurl();
+                          ?>
+                        <img src="<?= $imgUrl; ?>" alt="<?= $_product->getName();?>" style="border:0;height:auto;line-height:100%;outline:none;text-decoration:none;width: auto;max-width: 150px;max-height: 150px;min-height: 150px;">
+                    <?php else: ?>
+                        <?= /* @noEscape */ $block->getImage($_product, 'product_small_image')->toHtml() ?>
+                    <?php endif; ?>
+                    </a>
+                </p>
+
+                <p>
+                    <a href="<?= $block->escapeUrl($block->getProductUrl($_product)) ?>">
+                        <strong><?= $block->escapeHtml($_product->getName()) ?></strong>
+                    </a>
+                </p>
+                <?php if ($block->hasDescription($item)): ?>
+                    <p>
+                        <strong><?= $block->escapeHtml(__('Comment')) ?>:</strong>
+                        <br/><?= /* @noEscape */  $block->getEscapedDescription($item) ?>
+                    </p>
+                <?php endif; ?>
+                <p>
+                    <a href="<?= $block->escapeUrl($block->getProductUrl($_product)) ?>">
+                        <?= $block->escapeHtml(__('View Product')) ?>
+                    </a>
+                </p>
+            </td>
+            <?php if ($i % 3 != 0): ?>
+                <td></td>
+            <?php else: ?>
+        </tr>
+        <tr>
+            <td colspan="5">&nbsp;</td>
+        </tr>
+            <?php if ($i < $l): ?>
+            <tr>
+            <?php endif ?>
+            <?php endif ?>
+            <?php endforeach ?>
+    </table>
+</div>

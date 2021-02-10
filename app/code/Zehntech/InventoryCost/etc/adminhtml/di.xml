@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+
+	<preference for="Magento\InventorySourceSelection\Model\Result\SourceSelectionItem" type="Zehntech\InventoryCost\Model\SourceSelectionItem" />
+
+	<preference for="Magento\InventorySourceSelectionApi\Model\Algorithms\Result\GetDefaultSortedSourcesResult" type="Zehntech\InventoryCost\Model\GetDefaultSortedSourcesResult" />
+
+	<preference for="Magento\InventoryShippingAdminUi\Ui\DataProvider\GetSourcesByOrderIdSkuAndQty" type="Zehntech\InventoryCost\Model\GetSourcesByOrderIdSkuAndQty" />
+
+
+	<type name="Magento\InventoryCatalogAdminUi\Model\GetSourceItemsDataBySku">
+		<plugin name="get_cost_extension" type="Zehntech\InventoryCost\Plugin\CostExtensionPlugin" sortOrder="10" disabled="false"/>
+	</type>
+
+</config>

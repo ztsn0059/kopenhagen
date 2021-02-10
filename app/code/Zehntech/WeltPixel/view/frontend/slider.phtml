@@ -1,0 +1,91 @@
+<?php
+/**
+ * @var \Mageplaza\HelloWorld\Block\Display $block
+ */
+?>
+
+<?php
+if ($block->getBannerSlides()):
+    $i = 1;
+    ?>
+    <!-- Header slider start -->
+    <div id="slider" class="row justify-content-center">
+        <div class="cal-md-9 col-sm-9">
+            <div class="header-mask">
+                <div id="headerCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators s-indicators">
+                        <?php
+                        for ($j = 0; $j < count($block->getBannerSlides()); $j++):
+                            ?>
+                            <li data-target="#headerCarousel" data-slide-to="<?php echo $j; ?>" class="s-box <?php
+                            if ($j == 0):echo "active";
+                            endif;
+                            ?>"></li>
+                        <?php
+                        endfor;
+                        ?>
+                    </ul>
+                    <!-- The slide show -->
+                    <div class="carousel-inner">
+                        <?php foreach ($block->getBannerSlides() as $slides) { ?>
+                            <div class="carousel-item <?php
+                            if ($i == 1):echo "active";
+                            endif;
+                            ?>">
+                                <img src="<?php echo $this->getUrl('pub/media') . $slides['image']; ?>" alt="<?= $slides['alt_text']?>">
+                                <div class="slider-details">
+                                    <div class="font-18 color-white f-bold l-h-20"><?php echo $slides['sub_content']; ?></div>
+                                    <div class="font-86 f-bold color-white l-h-109"><?php echo $slides['title']; ?></div>
+                                    <div class="font-14 l-h-23 color-white s-c-width"><?php echo substr($slides['description'], 0, 300); ?>
+                                    </div>
+                                    <div class="m-t-35">
+                                        <a class="btn red-btn" href="<?php echo $slides['url']; ?>" role="button">
+                                            <span class="font-15 color-white f-bold l-h-19"><?php echo $slides['button_text']; ?></span>
+                                            <!--<img class="float-right " src="-->
+                                            <?php //echo $this->getUrl('pub/media'); ?><!--images/Right_Arrow.png" alt="">-->
+                                            <img class="float-right "
+                                                 src="<?php echo $this->getUrl('pub/media'); ?>images/next-icon.png"
+                                                 alt="">
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <?php
+                            $i++;
+                        }
+                        ?>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="cal-md-3 col-sm-3">
+            <div class="social-feed">
+                <div class="fb-page" data-href="https://www.facebook.com/PaveTech/" data-tabs="timeline"
+                     data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+                     data-show-facepile="true">
+                    <blockquote cite="https://www.facebook.com/PaveTech/" class="fb-xfbml-parse-ignore"><a
+                                href="https://www.facebook.com/PaveTech/">Pave Tech the Hardscape Outfitters</a>
+                    </blockquote>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <!-- Header slider end -->
+
+<?php
+endif;
+?>
+
+    <script>
+
+        require([
+            'jquery'
+        ], function ($) {
+            $('.cms-index-index .hero-header').css({'background-image':'url(https://pavetech-dev.thrivesys.com/pub/media/images/heroheader.jpg)','background-size':'contain'});
+        });
+
+    </script>

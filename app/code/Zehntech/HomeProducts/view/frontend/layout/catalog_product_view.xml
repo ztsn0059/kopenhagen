@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="product.info.main">
+            <block name="product.more.details" class="Magento\Catalog\Block\Product\View\Description" template="Zehntech_HomeProducts::ProductMoreDetail.phtml" before="product.info.price"/>
+        </referenceContainer>
+        <referenceContainer name="product.info.media">
+            <block name="brand_logo" class="Zehntech\HomeProducts\Block\BrandDetail" template="Zehntech_HomeProducts::brand_logo.phtml" before="product.info.media.image"/>
+        </referenceContainer>
+    </body>
+</page>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<StockTable>
+  <ClientID>702607600</ClientID>
+   <Item>
+    <DistPartNumber>1006010</DistPartNumber>
+    <ManufactPartNumber>191008</ManufactPartNumber>
+    <Brand>Brennen</Brand>
+    <ProductName>Stikdåse Brennenstuhl 6 udtag m/jord m/kontakt 3m hvid</ProductName>
+    <ItemName3></ItemName3>
+    <Price>89.91</Price>
+    <RecPrice1>143.96</RecPrice1>
+    <RecPrice2>143.96</RecPrice2>
+    <Stock>1</Stock>
+    <barcode>4007123023752</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>01</HeadCategory>
+    <HeadCategoryText>It-tilbehør &amp; maskiner</HeadCategoryText>
+    <Category>0103</Category>
+    <CategoryText>El-artikler</CategoryText>
+    <HeadCategory2>0103</HeadCategory2>
+    <HeadCategoryText2>El-artikler</HeadCategoryText2>
+    <Category2>010302</Category2>
+    <CategoryText2>Kabler</CategoryText2>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>4</OuterPack>
+    <KatalogPage>Side 041</KatalogPage>
+    <OEM>191008</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/1006010.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>1</Packing>
+    <Synonym>1001740</Synonym>
+    <EnviroCode></EnviroCode>
+    <ExtText>
+      Stikdåse med 2-polet kontakt og jord, der gør det muligt at tilslutte 6 enheder sikkert
+      til en elektrisk udgang.
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>1006020</DistPartNumber>
+    <ManufactPartNumber>217241</ManufactPartNumber>
+    <Brand>NQ Power</Brand>
+    <ProductName>Kabeltromle NQ Power 4 udtag 10m rød</ProductName>
+    <ItemName3></ItemName3>
+    <Price>97.56</Price>
+    <RecPrice1>143.20</RecPrice1>
+    <RecPrice2>143.20</RecPrice2>
+    <Stock>3</Stock>
+    <barcode>5706470109933</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>01</HeadCategory>
+    <HeadCategoryText>It-tilbehør &amp; maskiner</HeadCategoryText>
+    <Category>0103</Category>
+    <CategoryText>El-artikler</CategoryText>
+    <HeadCategory2>0103</HeadCategory2>
+    <HeadCategoryText2>El-artikler</HeadCategoryText2>
+    <Category2>010302</Category2>
+    <CategoryText2>Kabler</CategoryText2>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>1</OuterPack>
+    <KatalogPage>Side 041</KatalogPage>
+    <OEM>217241</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/1006020.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>1</Packing>
+    <Synonym></Synonym>
+    <EnviroCode></EnviroCode>
+    <ExtText>
+      Denne kabeltromle har fire danske stikkontakter, der er udstyret med
+      overspændingsbeskyttelse og 10 m ledning.
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>1006030</DistPartNumber>
+    <ManufactPartNumber>217242</ManufactPartNumber>
+    <Brand>NQ Power</Brand>
+    <ProductName>Kabeltromle NQ Power 4 udtag 25m på stativ sort</ProductName>
+    <ItemName3></ItemName3>
+    <Price>166.35</Price>
+    <RecPrice1>239.20</RecPrice1>
+    <RecPrice2>239.20</RecPrice2>
+    <Stock>0</Stock>
+    <barcode>5706470109940</barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>01</HeadCategory>
+    <HeadCategoryText>It-tilbehør &amp; maskiner</HeadCategoryText>
+    <Category>0103</Category>
+    <CategoryText>El-artikler</CategoryText>
+    <HeadCategory2>0103</HeadCategory2>
+    <HeadCategoryText2>El-artikler</HeadCategoryText2>
+    <Category2>010302</Category2>
+    <CategoryText2>Kabler</CategoryText2>
+    <StockUnit>Stk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>1</OuterPack>
+    <KatalogPage>Side 041</KatalogPage>
+    <OEM>217242</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/1006030.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>1</Packing>
+    <Synonym></Synonym>
+    <EnviroCode></EnviroCode>
+    <ExpectedDelivery>06/28/2019</ExpectedDelivery>
+    <ExtText>
+      Denne kabeltromle har fire danske stikkontakter, der er udstyret med
+      overspændingsbeskyttelse. Den er på stativ og har 25 m ledning.
+    </ExtText>
+  </Item>
+  </StockTable>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+* Copyright © 2019 Magento. All rights reserved.
+* See COPYING.txt for license details.
+* Author @SumitKumarNamdeo
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+
+        <add id="Zehntech_Remmer::manager" title="Zehntech" module="Zehntech_Remmer" sortOrder="10"
+             resource="Zehntech_Remmer::manager"/>
+
+        <add id="Zehntech_Remmer::fileupload" title="Remmer file" module="Zehntech_Remmer"
+             sortOrder="20"
+             parent="Zehntech_Remmer::manager" action="remmerfile/fileupload"
+             resource="Zehntech_Remmer::add_row"/>
+
+    </menu>
+</config>

@@ -1,0 +1,17 @@
+<?php
+$priceWithoutTaxRound = round($block->getProduct()->getPriceInfo()->getPrice('final_price')->getAmount()->getBaseAmount(), 2);
+$priceWithTaxRound = round($block->getProduct()->getPriceInfo()->getPrice('final_price')->getAmount()->getValue(), 2);
+?>
+
+<div class="price-container">
+    <div class="price-container-withouttax">
+        <span class="price-without-tax">
+            <?php echo $priceWithoutTaxRound; ?>
+        </span>
+    </div>
+    <div class="price-container-withtax">
+        <span class="price-with-tax">
+            <?php echo $priceWithTaxRound; ?><?php echo __('  inkl. moms'); ?>
+        </span>
+    </div>
+</div>

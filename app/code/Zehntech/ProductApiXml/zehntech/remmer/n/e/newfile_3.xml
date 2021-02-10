@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<StockTable>
+  <ClientID>702607600</ClientID>
+   <Item>
+    <DistPartNumber>20012200</DistPartNumber>
+    <ManufactPartNumber>6043300/S</ManufactPartNumber>
+    <Brand>Semperguar</Brand>
+    <ProductName>Engangshandske SemperGuard latex pudderfri str. S pk/100 inderforet</ProductName>
+    <ItemName3></ItemName3>
+    <Price>49.76</Price>
+    <RecPrice1>61.00</RecPrice1>
+    <RecPrice2>61.00</RecPrice2>
+    <Stock>0</Stock>
+    <barcode></barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>07</HeadCategory>
+    <HeadCategoryText>Sikkerhedsudstyr</HeadCategoryText>
+    <Category>0705</Category>
+    <CategoryText>Handsker</CategoryText>
+    <StockUnit>Pk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>10</OuterPack>
+    <KatalogPage>Side 450</KatalogPage>
+    <OEM>6043300/S</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/20012200.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>10</Packing>
+    <Synonym></Synonym>
+    <EnviroCode></EnviroCode>
+    <ExtText>
+      Naturfarvet latex m/rullet kant. Nedsat allergirisiko pga. indvendig PU-coatning. Sidder
+      tæt; ekstrem god fingerføling. Let mønstret overflade på fingre. Uden pudder. Godkendt
+      til fødevareindustrien. I overensstemmelse med EN 455.  Længde: 24 cm, tykkelse: 0,1 mm,
+      AQL 1.5.
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>20012210</DistPartNumber>
+    <ManufactPartNumber>6043300/M</ManufactPartNumber>
+    <Brand>Semperguar</Brand>
+    <ProductName>Engangshandske SemperGuard latex pudderfri str. M pk/100 inderforet</ProductName>
+    <ItemName3></ItemName3>
+    <Price>49.76</Price>
+    <RecPrice1>61.00</RecPrice1>
+    <RecPrice2>61.00</RecPrice2>
+    <Stock>0</Stock>
+    <barcode></barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>07</HeadCategory>
+    <HeadCategoryText>Sikkerhedsudstyr</HeadCategoryText>
+    <Category>0705</Category>
+    <CategoryText>Handsker</CategoryText>
+    <StockUnit>Pk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>10</OuterPack>
+    <KatalogPage>Side 450</KatalogPage>
+    <OEM>6043300/M</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/20012210.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>10</Packing>
+    <Synonym></Synonym>
+    <EnviroCode></EnviroCode>
+    <ExtText>
+      Naturfarvet latex m/rullet kant. Nedsat allergirisiko pga. indvendig PU-coatning. Sidder
+      tæt; ekstrem god fingerføling. Let mønstret overflade på fingre. Uden pudder. Godkendt
+      til fødevareindustrien. I overensstemmelse med EN 455.  Længde: 24 cm, tykkelse: 0,1 mm,
+      AQL 1.5.
+    </ExtText>
+  </Item>
+  <Item>
+    <DistPartNumber>20012220</DistPartNumber>
+    <ManufactPartNumber>6043300/L</ManufactPartNumber>
+    <Brand>Semperguar</Brand>
+    <ProductName>Engangshandske SemperGuard latex pudderfri str. L pk/100 inderforet</ProductName>
+    <ItemName3></ItemName3>
+    <Price>49.76</Price>
+    <RecPrice1>61.00</RecPrice1>
+    <RecPrice2>61.00</RecPrice2>
+    <Stock>0</Stock>
+    <barcode></barcode>
+    <Offer>No</Offer>
+    <OnWeb>Yes</OnWeb>
+    <HeadCategory>07</HeadCategory>
+    <HeadCategoryText>Sikkerhedsudstyr</HeadCategoryText>
+    <Category>0705</Category>
+    <CategoryText>Handsker</CategoryText>
+    <StockUnit>Pk.</StockUnit>
+    <MinSales>1</MinSales>
+    <OuterPack>10</OuterPack>
+    <KatalogPage>Side 450</KatalogPage>
+    <OEM>6043300/L</OEM>
+    <ImageURL>www.remmer.dk/images/imagehandler.ashx?path=/product-images/20012220.jpg</ImageURL>
+    <New>No</New>
+    <Popular>No</Popular>
+    <Packing>10</Packing>
+    <Synonym></Synonym>
+    <EnviroCode></EnviroCode>
+    <ExtText>
+      Naturfarvet latex m/rullet kant. Nedsat allergirisiko pga. indvendig PU-coatning. Sidder
+      tæt; ekstrem god fingerføling. Let mønstret overflade på fingre. Uden pudder. Godkendt
+      til fødevareindustrien. I overensstemmelse med EN 455.  Længde: 24 cm, tykkelse: 0,1 mm,
+      AQL 1.5.
+    </ExtText>
+  </Item>
+</StockTable>

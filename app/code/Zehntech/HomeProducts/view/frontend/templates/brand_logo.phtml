@@ -1,0 +1,10 @@
+<div class="brand-block">
+<?php $brand = $block->getBrand(); ?>
+    <a href="<?= $brand->getUrl();?>" class="product-brand-link">
+        <?php if($brand->getSmallImage()) : ?>
+            <img src='<?= $brand->getSmallImageUrl(); ?>'  >
+        <?php else: ?>
+            <span><?= $brand->getName(); ?></span>
+        <?php endif; ?>
+    </a>	
+</div>

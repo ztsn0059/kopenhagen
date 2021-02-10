@@ -1,0 +1,149 @@
+<?php $columnsLimit = $block->getColumnsLimit() ?: 0; ?>
+<?php $_menu2 = $block->getHtml('level-top', 'mega', $columnsLimit) ?>
+<?php $_menu = $block->getHtml('level-top', 'submenu', $columnsLimit) ?>
+<?php $_menu3 = $block->getCustomNav(241,true) ?>
+<?php $_menu4 = $block->getCustomNav(243,true) ?>
+<?php $_customNav = $block->getSelectedcatNav() ?>
+<?php if ($block->allowExtension()): ?>
+    <script>
+
+        require([
+            'jquery',
+            'ibnabmodernizr'
+        ], function ($) {
+
+
+            $('.menu > ul > li:has( > ul)').addClass('menu-dropdown-icon');
+
+            $('#header').append('<div class="popup-model"></div>');
+            var toggle = "<a href=\"#\" class=\"menu-mobile\"><span class=\"fa fa-bars\"></span></a>"
+            $(".menu > ul").before(toggle);
+            $('a.level-top').click(function (e){
+                if($(this).siblings().length){
+                    e.preventDefault();
+                }
+            })
+            $("#om > ul > li > a").click(function (e) {
+                $('a').removeClass('parent-active');
+                $(this).addClass('parent-active');
+                if($(this).siblings().length){
+                    e.preventDefault(); //testing
+                    if($(window).width() > 959) {
+                        $('#om > ul > li').children('.category-list').hide();
+                        firstLevel = $(this).siblings('.category-list').children('.first').children('a')
+                        firstLevel.addClass('active-top')
+                        $('.popup-model').fadeIn(function(){
+                            $('.search-bar').addClass('custom-index');
+                        });
+                        $(this).siblings("ul").first().show(function(){
+                            $(this).find(".level1.submenu.div-container").first().show();
+                        });
+                        first = $(this).siblings('.category-list').find('.level1.first').children('.div-container');
+                        first.show();
+                        $('li.level1').hover(function(){
+                                firstLevel.removeClass('active-top');
+                            if($(this).hasClass('first'))
+                                firstLevel.addClass('active-top')
+                        },function(){
+                            if($('li.level1:hover').length==0)
+                                firstLevel.addClass('active-top');
+                        })
+                    }
+                    else{
+                        e.preventDefault();
+                        $(this).siblings('.category-list').toggle();
+                    }
+                }
+            });
+
+            // $('.level1.parent > a').click(function(e){
+            //     e.preventDefault();
+            //     $(this).siblings('.div-container').toggleClass('active-level');
+            // })
+
+            $(".level1.div-container").hover(function(){
+                $(this).siblings().toggleClass('active-top');
+            })
+
+            $('.popup-model').click(function(){
+                $('a').removeClass('parent-active');
+                var parent = $("li.menu-dropdown-icon"); 
+                parent.children('ul').hide();
+                parent.find('a').removeClass('active-top');
+                // $(this).hide();
+                $(this).fadeToggle(function(){
+                    $('.search-bar').toggleClass('custom-index');
+                });
+                if($(window).width()<960)
+                {
+                    $(".menu > ul").toggleClass('show-on-mobile');
+                    $('.menu-close').toggleClass('cross-active',300);
+                    $('#om > ul > li > ul').hide();
+                    $('#om > ul > li > ul > .div-container').removeClass('active-level');
+                    $('.div-container').removeClass('active-level');
+                }
+            }) 
+
+            $(".menu-mobile").click(function (e) {
+                $(".menu > ul").toggleClass('show-on-mobile');
+                $('.menu-close').toggleClass('cross-active',300);
+                // $('#header > .popup-model').toggleClass('popup-active');
+                $('#header > .popup-model').fadeToggle(function(){
+                    $('.search-bar').toggleClass('custom-index');
+                });
+                e.preventDefault();
+            });
+            $('.menu-close').click(function(){
+                $(".menu > ul").toggleClass('show-on-mobile');
+                $(this).toggleClass('cross-active',300);
+                // $('#header > .popup-model').toggleClass('popup-active');
+                $('#header > .popup-model').fadeToggle(function(){
+                    $('.search-bar').toggleClass('custom-index');
+                });
+                $('#om > ul > li > ul').hide();
+                $('.div-container').removeClass('active-level');
+            })
+            // mobile or pad screens only
+        
+            // $('.menu-mobile').click(function(){
+            //     $('.menu-close').show();
+            // })
+            // $('.menu-close').click(function(){
+            //     $('.show-on-mobile').hide();
+            //     $(this).hide();
+            // })
+            // mobile or pad screens only
+            
+
+        });
+
+    </script>
+    <?php
+    /**
+     * Top menu for store
+     *
+     * @see \Magento\Theme\Block\Html\Topmenu
+     */
+    ?>
+    <nav class="navigation" role="navigation">
+
+        <div class="menu" id="om">
+            <ul>
+                <?php /* @escapeNotVerified */
+                echo $_menu2;
+                // echo $_menu3; 
+                // echo $_menu4;
+                echo $_customNav;
+            ?>
+            </ul>
+            <span class="menu-close fa fa-times"></span>
+        </div>
+    </nav>
+
+<?php else : ?>
+
+    <nav class="navigation" role="navigation">
+        <?php /* @escapeNotVerified */
+        echo $_menu; ?>
+    </nav>
+<?php endif; ?>

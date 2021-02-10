@@ -1,0 +1,75 @@
+<?php
+	$brandCollection = $block->getAllBrand();
+?>
+
+<div class="search-area">
+	<div class="form-inline">
+		<label>SÃ¸g:</label>
+	  	<div class="form-group mx-sm-3 mb-2">
+		    <select name="brand-search" id="searchBrand">
+		    	<option value="0">Alle mÃ¦rker</option>
+		    	<?php
+		    		foreach ($brandCollection as $brand) {
+		    			if($brand->getName()):
+    			?>
+		    		<option value="<?php echo $brand->getOptionId(); ?>"><?php echo $brand->getName(); ?></option>		
+    			<?php
+    					endif;
+		    		}
+		    	 ?>
+		    </select>
+	  	</div>
+	  	<div class="form-group">
+	  		<input type="text" class="btn" name="name" id="searchInput" style="text-align"/>
+  		</div>
+	</div>
+	<div>Select the brand and / or enter the model name or other keywords, such as Laserjet 4200, C11CB47101, etc.</div>
+</div>
+<div id="resultBrand">
+
+	 <ul id="reasultBrandTable">
+
+	 </ul>
+</div>
+
+
+<script>
+    require([
+        'jquery'
+    ], function ($) {
+    	var result;
+    	$('#searchBrand').change(function(){
+			$.get("<?php $block->getBaseUrl()?>/seacrhbrand/brand/searchlist",{'brandId':this.value},function(data)
+    		{
+    			$('#reasultBrandTable').empty();
+				li = '';
+				if($('#searchBrand').val()!=0){
+	    			data.productList.forEach(function(item){
+						li = li+'<li><a href="'+item.url+'">'+item.name+'</a></li>';	
+	    			});		
+	    			$(li).appendTo('#reasultBrandTable');
+	    		}	
+    		});
+    	});
+
+
+		$('#searchInput').keyup(function(){
+			$('#reasultBrandTable').empty();
+			brandId = $('#searchBrand').val();
+
+			$('#reasultBrandTable').empty();
+    		$.get("<?php $block->getBaseUrl()?>/seacrhbrand/brand/searchlist",{'brandId':brandId,'keySearch':this.value},function(data)
+    		{
+				li = '';
+				$('#reasultBrandTable').empty();
+    			data.productList.forEach(function(item){
+						li = li+'<li><a href="'+item.url+'">'+item.name+'</a></li>';	
+	    			});
+    			$(li).appendTo('#reasultBrandTable');
+    		});
+		});
+
+
+    });
+</script>
+

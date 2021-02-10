@@ -1,0 +1,12 @@
+<?php $categories = $block->getCategories('Kontorartikler'); ?>
+<?php// $categories = $block->getAllCategories(); ?>
+<div class="cat-pc-block">
+	
+	<ul id="category-list" style="list-style:none;" >
+		<?php foreach($categories as $category)  {
+		?>
+		<li class="cat-li" style="display:inline-block;width:33%;"><a href="<?php echo $category->getUrl(); ?>"><?php echo $category->getName(); ?></a></li>
+	<?php	}?>
+	</ul>
+</div>
+

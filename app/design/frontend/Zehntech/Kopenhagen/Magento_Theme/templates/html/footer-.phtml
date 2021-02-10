@@ -1,0 +1,65 @@
+<div class="row footer-subscribe-side">
+    
+    <div class="col-6 footer-message d-flex justify-content-end">
+        <i class="fa fa-envelope"></i><span>Tilmeld dig for at modtage specialtilbud og nyheder via email</span>
+    </div>
+
+    <div class="col-6">
+      <?php echo $this->getLayout()->createBlock("Magento\Newsletter\Block\Subscribe")->setTemplate("Magento_Newsletter::subscribe.phtml")->toHtml(); ?>
+    </div>
+</div>
+
+<div class="footer-link-side">
+<div class="container">
+    <div class="row justify-content-around">
+        <div class="col-3 cms-1">
+      
+            <?php
+            echo $this->getLayout()
+            ->createBlock('Magento\Cms\Block\Block')
+            ->setBlockId('customer-info')
+            ->toHtml();
+            ?>
+      
+        </div>
+        <div class="col-3 cms-2">
+     
+            <?php
+            echo $this->getLayout()
+            ->createBlock('Magento\Cms\Block\Block')
+            ->setBlockId('contact-info')
+            ->toHtml();
+            ?>
+
+        </div>
+        <div class="col-3 cms-3">
+
+            <?php
+            echo $this->getLayout()
+            ->createBlock('Magento\Cms\Block\Block')
+            ->setBlockId('address')
+            ->toHtml();
+            ?>
+
+        </div>
+        <div class="col-2 social-footer-link">
+
+            <h2>FØLG OS</h2>
+            <div>
+                <span class="social-box footer-insta"><a href="//www.instagram.com/onlinesupplies_kontorartikler/" target="_blank"><i class="fab fa-instagram display-fav social-footer"></i></a></span>
+                <span class="social-box footer-face"><a href="//www.facebook.com/Online-Supplies-116548868793115/" target="_blank"><i class="fab fa-facebook display-fav social-footer"></i></a></span>
+                <span class="social-box footer-linked"><a href="//www.linkedin.com/company/online-supplies?trk=biz-companies-cym" target="_blank"><i class="fab fa-linkedin display-fav social-footer "></i></a></span>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+<div>
+    <?php echo $this->getLayout()->createBlock("Magento\Theme\Block\Html\Footer")->setTemplate("Magento_Theme::html/copyright.phtml")->toHtml(); ?>
+</div>
+
+<span class="page-scroller">
+    <a href="#"><i class="fa fa-arrow-up"></i></a>
+</span>
+

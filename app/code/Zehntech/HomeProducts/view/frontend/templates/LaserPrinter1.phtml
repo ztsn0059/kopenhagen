@@ -1,0 +1,34 @@
+<?php $categories = $block->getCategories('Kontorartikler'); ?>
+<?php// $categories = $block->getAllCategories(); ?>
+<div class="cat-pc-block">
+	
+	<ul id="category-list" style="list-style:none;" >
+		<?php foreach($categories as $category)  {
+		?>
+		<li class="cat-li" style="display:inline-block;width:33%;"><a href="<?php echo $category->getUrl(); ?>"><?php echo $category->getName(); ?></a></li>
+	<?php	}?>
+	</ul>
+</div>
+
+
+<div class="cat-products row">
+	<?php $productCollection = $block->getProductCollection($block->getCtagoeryByName('Kontorartikler'));
+		foreach($productCollection as $product)
+		{
+	 ?>
+	 <div class="cat-product-list col-4">
+	 	<div class="col-11 product-border">
+		 	<div class="row">
+		 		<div class="col-6"><a href="<?php echo $product->getProductUrl(); ?>"><img src="//<?php echo $product->getImageurl(); ?>"/></a></div>
+		 		<div class="col-6">
+		 			<div><?php echo $product->getFormattedPrice(); ?></div>
+		 			<div>[<?php echo $block->getPriceWithVat($product); ?> inkl. moms]</div>
+	 				<div><?php if($product->getStatus()) { echo "På lager";} ?></div>
+	 				<div><a href="<?php echo $product->getProductUrl(); ?>"><button class="add">See More</button></a></div>
+	 			</div>
+	 		</div>
+			<div  class="pr-name"><?php echo $product->getName(); ?></div>
+	 	</div>
+	 </div>
+	 <?php }?>
+</div>

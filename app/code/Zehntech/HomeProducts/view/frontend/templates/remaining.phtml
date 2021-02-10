@@ -1,0 +1,9 @@
+<div class="charges-counter">
+	<?php if($block->getQuote()->getSubtotal()<600):
+		$remainig = 600 - $block->getQuote()->getSubtotal();
+	 ?>
+	 <div class="counter-msg">
+		<span>Tilføj yderligere varer for kr. <?= $remainig; ?> og få gratis fragt.</span>
+	</div>
+<?php endif; ?>
+</div>

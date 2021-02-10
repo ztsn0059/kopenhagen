@@ -1,0 +1,31 @@
+<?php
+/**
+ * Copyright Â© Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+?>
+<?php /* @var $block \Magento\Catalog\Block\Product\View\AbstractView */ ?>
+<?php $_product = $block->getProduct() ?>
+
+<?php if ($block->displayProductStockStatus()): ?>
+    <?php if ($_product->isAvailable()): ?>
+        <?php
+        $blockObj= $block->getLayout()->createBlock('Zehntech\HomeProducts\Block\StockBySource');
+       $sourceData = $blockObj->getSourceStock($_product); 
+        ?>
+        <div class="stock available quantity" title="<?= /* @escapeNotVerified */
+        __('Availability') ?>">
+            <span><?= /* @escapeNotVerified */
+                __('PÅ LAGER : ') . $sourceData['quantity']; ?></span>
+        </div>
+    <?php else: ?>
+        <div class="stock unavailable" title="<?= /* @escapeNotVerified */
+        __('Availability') ?>">
+            <span><?= /* @escapeNotVerified */
+                __('Varen er snart PÅ lager igen, bestil blot') ?></span>
+        </div>
+    <?php endif; ?>
+<?php endif; ?>

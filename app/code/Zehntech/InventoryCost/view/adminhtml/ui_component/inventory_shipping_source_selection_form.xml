@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" component="Magento_InventoryShippingAdminUi/js/form/form" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <fieldset name="items_ordered" sortOrder="20">
+        <dynamicRows name="items" component="Magento_Ui/js/dynamic-rows/dynamic-rows" sortOrder="20" template="ui/dynamic-rows/templates/grid">
+            <container name="record" component="Magento_Ui/js/dynamic-rows/record">
+                <dynamicRows name="sources" sortOrder="40">
+                    <container name="record" component="Magento_Ui/js/dynamic-rows/record">
+                        <argument name="data" xsi:type="array">
+                            <item name="config" xsi:type="array">
+                                <item name="isTemplate" xsi:type="boolean">true</item>
+                                <item name="is_collection" xsi:type="boolean">false</item>
+                                <item name="dataScope" xsi:type="string" />
+                            </item>
+                        </argument>
+                        <field name="cost" formElement="input"
+                               component="Magento_InventoryShippingAdminUi/js/form/element/qty_to_deduct"
+                               sortOrder="40">
+                            <settings>
+                                <validation>
+                                   <rule name="required-entry" xsi:type="boolean">true</rule>
+                                    <rule name="less-than-equals-to" xsi:type="number">99999999</rule>
+                                    <rule name="validate-number" xsi:type="boolean">true</rule>
+                                </validation>
+                                <elementTmpl>ui/form/element/input</elementTmpl>
+                                <dataType>number</dataType>
+                                <dataScope>cost</dataScope>
+                                <label translate="true">Cost</label>
+                                <disabled>true</disabled>
+                                <labelVisible>false</labelVisible>
+                            </settings>
+                        </field>
+                    </container>
+                </dynamicRows>
+            </container>
+        </dynamicRows>
+    </fieldset>
+</form>
